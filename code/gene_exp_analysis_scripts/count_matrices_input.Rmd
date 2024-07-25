@@ -1,0 +1,87 @@
+```{r}
+#Adding local R library to path
+.libPaths(c(.libPaths(), "/home/lchanem1/rlibs/4.0.2/gcc/9.3.0"))
+```
+
+```{r}
+library(data.table)
+rawcounts <- fread("/home/lchanem1/data-abattle4/lakshmi/cuomo_2020/zenodo_metadata/raw_counts.csv")
+metadata <- read.csv("/home/lchanem1/data-abattle4/lakshmi/cuomo_2020/zenodo_metadata/cell_metadata_cols.tsv", sep = "\t")
+```
+
+```{r}
+# Splitting read count matrices into donor wise matrices
+library(dplyr)
+donor_to_cells <- metadata %>%
+  select(donor_short_id, cell_name)
+donor_matrices <- list()
+unique_donors <- unique(donor_to_cells$donor_short_id)
+for (donor_id in unique_donors) {
+  donor_cells <- donor_to_cells$cell_name[donor_to_cells$donor_short_id == donor_id]
+  donor_matrices[[donor_id]] <- donor_cells
+}
+```
+
+```{r}
+# Creating a count matrix for donor of choice and storing it
+donor_counts <- rawcounts %>% select(V1, all_of(donor_matrices[["joxm_1"]]))
+fwrite(donor_counts, file = "/home/lchanem1/data-abattle4/lakshmi/cuomo_2020/joxm_1_rawcounts.csv")
+```
+
+```{r}
+#Creating a subset of the count matrix for donors of interest
+donors_of_interest <- c("zihe_1", "iisa_3", "uilk_3", "xojn_3", "qehq_3", "eipl_1", "letw_1", "sojd_3", "poih_4", "joxm_1")
+
+filtered_metadata <- metadata %>% filter(donor_short_id %in% donors_of_interest)
+filtered_counts <- rawcounts %>% select(V1, all_of(filtered_metadata$cell_name))
+```
+
+```{r}
+for (donor_id in donors_of_interest) {
+  donor_counts <- filtered_counts %>% select(V1, all_of(donor_matrices[[donor_id]]))
+  
+  # Assign the donor matrix to a variable with a dynamic name
+  assign(paste0(donor_id, "_matrix"), donor_counts)
+}
+```
+
+```{r}
+# Create a new dataframe for storing average/sum expression
+avg_expression_df <- data.frame(Gene = rawcounts$V1)
+
+for (donor_id in donors_of_interest) {
+  # Access the donor matrix
+  donor_matrix <- get(paste0(donor_id, "_matrix"))
+  
+  # Calculate the average across columns (excluding the first column V1) for all rows
+  avg_expression <- rowMeans(donor_matrix[, -1, drop = FALSE])
+  
+  # Store the results in the new dataframe
+  avg_expression_df[[as.character(donor_id)]] <- avg_expression
+}
+
+#row.names(average_expression_df) <- average_expression_df$Gene
+#average_expression_df <- average_expression_df[-1]
+# Display the resulting dataframe
+print(avg_expression_df)
+```
+```{r}
+# Split Gene names into ENSEMBL Ids and common symbols
+avg_expression_df$Gene <- sapply(strsplit(as.character(avg_expression_df$Gene), "_"), function(x) x[1])
+
+# Getting Gene Lengths from BioMart
+write.table(avg_expression_df$Gene, file="/home/lchanem1/data-abattle4/lakshmi/cuomo_2020/gene_exp_analysis/gene_ids.txt", col.names = FALSE, row.names = FALSE)
+# This step is done locally due to package inconsistency, on script gene_annotations.R
+# NOW FIXED: Run gene_annotations.R
+```
+
+```{r}
+# Appending gene length information from BioMart results (run locally)
+gene_annotations <- read.csv("/home/lchanem1/data-abattle4/lakshmi/cuomo_2020/gene_exp_analysis/gene_annotations.csv")
+gene_annotations$full_gene_id <- paste(gene_annotations$ensembl_gene_id, gene_annotations$hgnc_symbol, sep = "_")
+avg_exp_merged <- merge(avg_expression_df, gene_annotations, by.x = "Gene", by.y = "full_gene_id")
+```
+
+```{r}
+fwrite(avg_exp_merged, file = "/home/lchanem1/data-abattle4/lakshmi/cuomo_2020/gene_exp_analysis/d10_avg_expression.csv")
+```
