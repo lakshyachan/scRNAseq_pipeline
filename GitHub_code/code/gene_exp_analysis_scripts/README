@@ -1,0 +1,8 @@
+This folder contains all scripts needed to analyse Gencove imputed VCF outputs for the following analyses:
+a) Gene Expression/Count Based Analysis: Use gene_annotations.R to extract ENSEMBL gene IDs and corresponding start/end positions and gene lengths etc. from BioMart. Count Matrix from Zenodo can be used for quantifying into TPM units and observing gene expression trends across samples of interest.
+
+b) Coverage Based Analysis: use count_matrices_preprocess and _input markdown scripts to get the necessary files, i.e, good quality genes aka genes on the count matrix, and their raw counts of reads covering them. Used to quantile genes by 'coverage' and subsetting VCFs for correlation across various coverages. 
+
+c) Quality Score Based Analysis: Use lowconf scripts to modify criteria for quality score to assign LOWCONF vs PASS to a SNP and observe effect on correlation by these SNPs at various thresholds. 
+
+Script author: Lakshmi Chanemougam

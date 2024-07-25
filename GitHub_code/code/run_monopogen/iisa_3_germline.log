@@ -1,0 +1,4710 @@
+[2024-04-19 19:18:34,276] INFO     Monopogen.py Performing data preprocess before variant calling...
+[2024-04-19 19:18:34,277] INFO     germline.py Parameters in effect:
+[2024-04-19 19:18:34,277] INFO     germline.py --subcommand = [preProcess]
+[2024-04-19 19:18:34,277] INFO     germline.py --bamFile = [/home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/iisa_3.bam.lst]
+[2024-04-19 19:18:34,277] INFO     germline.py --out = [/home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/iisa_3-results]
+[2024-04-19 19:18:34,277] INFO     germline.py --app_path = [/home/lchanem1/Monopogen/apps]
+[2024-04-19 19:18:34,277] INFO     germline.py --max_mismatch = [3]
+[2024-04-19 19:18:34,277] INFO     germline.py --nthreads = [22]
+[2024-04-19 19:18:34,290] DEBUG    Monopogen.py PreProcessing sample iisa_3
+[2024-04-19 19:18:34,426] INFO     germline.py The contig chr15 does not contain the prefix 'chr' and we will add 'chr' on it 
+[2024-04-19 19:18:34,428] INFO     germline.py The contig chr1 does not contain the prefix 'chr' and we will add 'chr' on it 
+[2024-04-19 19:18:34,430] INFO     germline.py The contig chr4 does not contain the prefix 'chr' and we will add 'chr' on it 
+[2024-04-19 19:18:34,431] INFO     germline.py The contig chr16 does not contain the prefix 'chr' and we will add 'chr' on it 
+[2024-04-19 19:18:34,431] INFO     germline.py The contig chr14 does not contain the prefix 'chr' and we will add 'chr' on it 
+[2024-04-19 19:18:34,431] INFO     germline.py The contig chr5 does not contain the prefix 'chr' and we will add 'chr' on it 
+[2024-04-19 19:18:34,431] INFO     germline.py The contig chr18 does not contain the prefix 'chr' and we will add 'chr' on it 
+[2024-04-19 19:18:34,431] INFO     germline.py The contig chr10 does not contain the prefix 'chr' and we will add 'chr' on it 
+[2024-04-19 19:18:34,445] INFO     germline.py The contig chr11 does not contain the prefix 'chr' and we will add 'chr' on it 
+[2024-04-19 19:18:34,449] INFO     germline.py The contig chr3 does not contain the prefix 'chr' and we will add 'chr' on it 
+[2024-04-19 19:18:34,450] INFO     germline.py The contig chr2 does not contain the prefix 'chr' and we will add 'chr' on it 
+[2024-04-19 19:18:34,450] INFO     germline.py The contig chr7 does not contain the prefix 'chr' and we will add 'chr' on it 
+[2024-04-19 19:18:34,450] INFO     germline.py The contig chr9 does not contain the prefix 'chr' and we will add 'chr' on it 
+[2024-04-19 19:18:34,450] INFO     germline.py The contig chr21 does not contain the prefix 'chr' and we will add 'chr' on it 
+[2024-04-19 19:18:34,451] INFO     germline.py The contig chr22 does not contain the prefix 'chr' and we will add 'chr' on it 
+[2024-04-19 19:18:34,453] INFO     germline.py The contig chr12 does not contain the prefix 'chr' and we will add 'chr' on it 
+[2024-04-19 19:18:34,454] INFO     germline.py The contig chr6 does not contain the prefix 'chr' and we will add 'chr' on it 
+[2024-04-19 19:18:34,457] INFO     germline.py The contig chr8 does not contain the prefix 'chr' and we will add 'chr' on it 
+[2024-04-19 19:18:34,458] INFO     germline.py The contig chr13 does not contain the prefix 'chr' and we will add 'chr' on it 
+[2024-04-19 19:18:34,458] INFO     germline.py The contig chr17 does not contain the prefix 'chr' and we will add 'chr' on it 
+[2024-04-19 19:18:34,459] INFO     germline.py The contig chr19 does not contain the prefix 'chr' and we will add 'chr' on it 
+[2024-04-19 19:18:34,462] INFO     germline.py The contig chr20 does not contain the prefix 'chr' and we will add 'chr' on it 
+[2024-04-19 19:25:29,975] INFO     Monopogen.py Success! See instructions above.
+[2024-04-19 19:25:30,461] INFO     Monopogen.py Performing germline variant calling...
+[2024-04-19 19:25:30,461] INFO     germline.py Parameters in effect:
+[2024-04-19 19:25:30,461] INFO     germline.py --subcommand = [germline]
+[2024-04-19 19:25:30,461] INFO     germline.py --region = [/home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/region.lst]
+[2024-04-19 19:25:30,465] INFO     germline.py --step = [all]
+[2024-04-19 19:25:30,465] INFO     germline.py --out = [/home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/iisa_3-results]
+[2024-04-19 19:25:30,465] INFO     germline.py --reference = [/home/lchanem1/data-abattle4/lakshmi/hs37d5_wchr.fa]
+[2024-04-19 19:25:30,465] INFO     germline.py --imputation_panel = [/home/lchanem1/data-abattle4/lakshmi/GRCh37_renamed/]
+[2024-04-19 19:25:30,465] INFO     germline.py --max_softClipped = [1]
+[2024-04-19 19:25:30,465] INFO     germline.py --app_path = [/home/lchanem1/Monopogen/apps]
+[2024-04-19 19:25:30,465] INFO     germline.py --nthreads = [10]
+[2024-04-19 19:25:30,465] INFO     germline.py --norun = [FALSE]
+[2024-04-19 19:25:30,465] INFO     Monopogen.py Checking existence of essenstial resource files...
+[2024-04-19 19:25:30,467] INFO     Monopogen.py Checking dependencies...
+[mpileup] 1 samples in 1 input files
+[mpileup] 1 samples in 1 input files
+[mpileup] 1 samples in 1 input files
+[mpileup] 1 samples in 1 input files
+[mpileup] 1 samples in 1 input files
+[mpileup] 1 samples in 1 input files
+[mpileup] 1 samples in 1 input files
+[mpileup] 1 samples in 1 input files
+[mpileup] 1 samples in 1 input files
+[mpileup] 1 samples in 1 input files
+(mpileup) Max depth is above 1M. Potential memory hog!
+(mpileup) Max depth is above 1M. Potential memory hog!
+(mpileup) Max depth is above 1M. Potential memory hog!
+(mpileup) Max depth is above 1M. Potential memory hog!
+(mpileup) Max depth is above 1M. Potential memory hog!
+(mpileup) Max depth is above 1M. Potential memory hog!
+(mpileup) Max depth is above 1M. Potential memory hog!
+(mpileup) Max depth is above 1M. Potential memory hog!
+(mpileup) Max depth is above 1M. Potential memory hog!
+(mpileup) Max depth is above 1M. Potential memory hog!
+Lines   total/split/realigned/skipped:	14180101/103196/9188/0
+beagle.27Jul16.86a.jar (version 4.1)
+Copyright (C) 2014-2015 Brian L. Browning
+Enter "java -jar beagle.27Jul16.86a.jar" for a summary of command line arguments.
+Start time: 07:35 PM EDT on 19 Apr 2024
+
+Command line: java -Xmx18204m -jar beagle.jar
+  gl=/home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/iisa_3-results/germline/chr8.gl.vcf.gz
+  ref=/home/lchanem1/data-abattle4/lakshmi/GRCh37_renamed/ALL.chr8.phase3_shapeit2_mvncall_integrated_v5b.20130502.genotypes_rename.vcf.gz
+  chrom=chr8
+  out=/home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/iisa_3-results/germline/chr8.gp
+  impute=false
+  modelscale=2
+  nthreads=24
+  gprobs=true
+  niterations=0
+
+No genetic map is specified: using 1 cM = 1 Mb
+Lines   total/split/realigned/skipped:	14274011/104342/9261/0
+beagle.27Jul16.86a.jar (version 4.1)
+Copyright (C) 2014-2015 Brian L. Browning
+Enter "java -jar beagle.27Jul16.86a.jar" for a summary of command line arguments.
+Start time: 07:36 PM EDT on 19 Apr 2024
+
+Command line: java -Xmx18204m -jar beagle.jar
+  gl=/home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/iisa_3-results/germline/chr10.gl.vcf.gz
+  ref=/home/lchanem1/data-abattle4/lakshmi/GRCh37_renamed/ALL.chr10.phase3_shapeit2_mvncall_integrated_v5b.20130502.genotypes_rename.vcf.gz
+  chrom=chr10
+  out=/home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/iisa_3-results/germline/chr10.gp
+  impute=false
+  modelscale=2
+  nthreads=24
+  gprobs=true
+  niterations=0
+
+No genetic map is specified: using 1 cM = 1 Mb
+
+reference samples:    2504
+target samples:          1
+
+reference samples:    2504
+target samples:          1
+Lines   total/split/realigned/skipped:	18169206/104465/11056/0
+beagle.27Jul16.86a.jar (version 4.1)
+Copyright (C) 2014-2015 Brian L. Browning
+Enter "java -jar beagle.27Jul16.86a.jar" for a summary of command line arguments.
+Start time: 07:36 PM EDT on 19 Apr 2024
+
+Command line: java -Xmx18204m -jar beagle.jar
+  gl=/home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/iisa_3-results/germline/chr4.gl.vcf.gz
+  ref=/home/lchanem1/data-abattle4/lakshmi/GRCh37_renamed/ALL.chr4.phase3_shapeit2_mvncall_integrated_v5b.20130502.genotypes_rename.vcf.gz
+  chrom=chr4
+  out=/home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/iisa_3-results/germline/chr4.gp
+  impute=false
+  modelscale=2
+  nthreads=24
+  gprobs=true
+  niterations=0
+
+No genetic map is specified: using 1 cM = 1 Mb
+
+reference samples:    2504
+target samples:          1
+Lines   total/split/realigned/skipped:	14453127/107510/8831/0
+beagle.27Jul16.86a.jar (version 4.1)
+Copyright (C) 2014-2015 Brian L. Browning
+Enter "java -jar beagle.27Jul16.86a.jar" for a summary of command line arguments.
+Start time: 07:38 PM EDT on 19 Apr 2024
+
+Command line: java -Xmx18204m -jar beagle.jar
+  gl=/home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/iisa_3-results/germline/chr9.gl.vcf.gz
+  ref=/home/lchanem1/data-abattle4/lakshmi/GRCh37_renamed/ALL.chr9.phase3_shapeit2_mvncall_integrated_v5b.20130502.genotypes_rename.vcf.gz
+  chrom=chr9
+  out=/home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/iisa_3-results/germline/chr9.gp
+  impute=false
+  modelscale=2
+  nthreads=24
+  gprobs=true
+  niterations=0
+
+No genetic map is specified: using 1 cM = 1 Mb
+
+reference samples:    2504
+target samples:          1
+
+Window 1 [ chr10:67774-135370060 ]
+reference markers:   12782
+target markers:      12782
+
+Starting burn-in iterations
+
+Window=1 Iteration=1
+Time for building model:         19 seconds
+Time for sampling (singles):     3 seconds
+DAG statistics
+mean edges/level: 27     max edges/level: 79
+mean edges/node:  1.305  mean count/edge: 186
+
+Window 1 [ chr8:160210-146283264 ]
+reference markers:   12688
+target markers:      12688
+
+Starting burn-in iterations
+
+Window=1 Iteration=2
+Time for building model:         19 seconds
+Time for sampling (singles):     3 seconds
+DAG statistics
+mean edges/level: 26     max edges/level: 88
+mean edges/node:  1.282  mean count/edge: 193
+
+Window=1 Iteration=1
+Time for building model:         18 seconds
+Time for sampling (singles):     3 seconds
+DAG statistics
+mean edges/level: 28     max edges/level: 92
+mean edges/node:  1.302  mean count/edge: 179
+
+Window=1 Iteration=3
+Time for building model:         19 seconds
+Time for sampling (singles):     2 seconds
+DAG statistics
+mean edges/level: 26     max edges/level: 82
+mean edges/node:  1.283  mean count/edge: 193
+
+Window=1 Iteration=2
+Time for building model:         16 seconds
+Time for sampling (singles):     3 seconds
+DAG statistics
+mean edges/level: 27     max edges/level: 89
+mean edges/node:  1.279  mean count/edge: 186
+
+Window=1 Iteration=4
+Time for building model:         15 seconds
+Time for sampling (singles):     2 seconds
+DAG statistics
+mean edges/level: 27     max edges/level: 82
+mean edges/node:  1.280  mean count/edge: 186
+Lines   total/split/realigned/skipped:	19572384/135887/12742/0
+beagle.27Jul16.86a.jar (version 4.1)
+Copyright (C) 2014-2015 Brian L. Browning
+Enter "java -jar beagle.27Jul16.86a.jar" for a summary of command line arguments.
+Start time: 07:41 PM EDT on 19 Apr 2024
+
+Command line: java -Xmx18204m -jar beagle.jar
+  gl=/home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/iisa_3-results/germline/chr5.gl.vcf.gz
+  ref=/home/lchanem1/data-abattle4/lakshmi/GRCh37_renamed/ALL.chr5.phase3_shapeit2_mvncall_integrated_v5b.20130502.genotypes_rename.vcf.gz
+  chrom=chr5
+  out=/home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/iisa_3-results/germline/chr5.gp
+  impute=false
+  modelscale=2
+  nthreads=24
+  gprobs=true
+  niterations=0
+
+No genetic map is specified: using 1 cM = 1 Mb
+
+Window=1 Iteration=3
+Time for building model:         15 seconds
+Time for sampling (singles):     3 seconds
+DAG statistics
+mean edges/level: 27     max edges/level: 87
+mean edges/node:  1.280  mean count/edge: 186
+
+Window=1 Iteration=5
+Time for building model:         15 seconds
+Time for sampling (singles):     2 seconds
+DAG statistics
+mean edges/level: 26     max edges/level: 84
+mean edges/node:  1.283  mean count/edge: 193
+
+reference samples:    2504
+target samples:          1
+
+Window=1 Iteration=4
+Time for building model:         16 seconds
+Time for sampling (singles):     3 seconds
+DAG statistics
+mean edges/level: 27     max edges/level: 88
+mean edges/node:  1.281  mean count/edge: 186
+
+Window=1 Iteration=6
+Time for building model:         17 seconds
+Time for sampling (singles):     3 seconds
+DAG statistics
+mean edges/level: 26     max edges/level: 87
+mean edges/node:  1.283  mean count/edge: 193
+
+Window=1 Iteration=5
+Time for building model:         16 seconds
+Time for sampling (singles):     3 seconds
+DAG statistics
+mean edges/level: 27     max edges/level: 89
+mean edges/node:  1.281  mean count/edge: 186
+
+Window=1 Iteration=7
+Time for building model:         17 seconds
+Time for sampling (singles):     3 seconds
+DAG statistics
+mean edges/level: 26     max edges/level: 81
+mean edges/node:  1.283  mean count/edge: 193
+
+Window 1 [ chr4:53428-190887727 ]
+reference markers:   16040
+target markers:      16040
+
+Starting burn-in iterations
+
+Window=1 Iteration=6
+Time for building model:         17 seconds
+Time for sampling (singles):     4 seconds
+DAG statistics
+mean edges/level: 27     max edges/level: 84
+mean edges/node:  1.280  mean count/edge: 186
+
+Window=1 Iteration=8
+Time for building model:         19 seconds
+Time for sampling (singles):     3 seconds
+DAG statistics
+mean edges/level: 26     max edges/level: 83
+mean edges/node:  1.282  mean count/edge: 193
+
+Window 1 [ chr9:14690-141093223 ]
+reference markers:   12607
+target markers:      12607
+
+Starting burn-in iterations
+
+Window=1 Iteration=7
+Time for building model:         16 seconds
+Time for sampling (singles):     4 seconds
+DAG statistics
+mean edges/level: 27     max edges/level: 89
+mean edges/node:  1.281  mean count/edge: 186
+
+Window=1 Iteration=1
+Time for building model:         22 seconds
+Time for sampling (singles):     4 seconds
+DAG statistics
+mean edges/level: 28     max edges/level: 88
+mean edges/node:  1.287  mean count/edge: 179
+
+Window=1 Iteration=9
+Time for building model:         19 seconds
+Time for sampling (singles):     3 seconds
+DAG statistics
+mean edges/level: 26     max edges/level: 75
+mean edges/node:  1.283  mean count/edge: 193
+
+Window=1 Iteration=8
+Time for building model:         17 seconds
+Time for sampling (singles):     4 seconds
+DAG statistics
+mean edges/level: 27     max edges/level: 91
+mean edges/node:  1.278  mean count/edge: 186
+
+Window=1 Iteration=1
+Time for building model:         21 seconds
+Time for sampling (singles):     3 seconds
+DAG statistics
+mean edges/level: 27     max edges/level: 73
+mean edges/node:  1.305  mean count/edge: 186
+
+Window=1 Iteration=2
+Time for building model:         26 seconds
+Time for sampling (singles):     3 seconds
+DAG statistics
+mean edges/level: 28     max edges/level: 85
+mean edges/node:  1.270  mean count/edge: 179
+
+Window=1 Iteration=10
+Time for building model:         18 seconds
+Time for sampling (singles):     3 seconds
+DAG statistics
+mean edges/level: 26     max edges/level: 81
+mean edges/node:  1.283  mean count/edge: 193
+
+Number of markers:               12782
+Total time for building model: 2 minutes 57 seconds
+Total time for sampling:       29 seconds
+Total run time:                7 minutes 18 seconds
+
+End time: 07:43 PM EDT on 19 Apr 2024
+beagle.27Jul16.86a.jar (version 4.1) finished
+beagle.27Jul16.86a.jar (version 4.1)
+Copyright (C) 2014-2015 Brian L. Browning
+Enter "java -jar beagle.27Jul16.86a.jar" for a summary of command line arguments.
+Start time: 07:43 PM EDT on 19 Apr 2024
+
+Command line: java -Xmx18204m -jar beagle.jar
+  gt=/home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/iisa_3-results/germline/chr10.germline.vcf
+  ref=/home/lchanem1/data-abattle4/lakshmi/GRCh37_renamed/ALL.chr10.phase3_shapeit2_mvncall_integrated_v5b.20130502.genotypes_rename.vcf.gz
+  chrom=chr10
+  out=/home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/iisa_3-results/germline/chr10.phased
+  impute=false
+  modelscale=2
+  nthreads=24
+  gprobs=true
+  niterations=0
+
+No genetic map is specified: using 1 cM = 1 Mb
+
+Window=1 Iteration=9
+Time for building model:         16 seconds
+Time for sampling (singles):     4 seconds
+DAG statistics
+mean edges/level: 27     max edges/level: 90
+mean edges/node:  1.281  mean count/edge: 186
+
+Window=1 Iteration=2
+Time for building model:         18 seconds
+Time for sampling (singles):     3 seconds
+DAG statistics
+mean edges/level: 27     max edges/level: 76
+mean edges/node:  1.286  mean count/edge: 186
+
+Window=1 Iteration=3
+Time for building model:         20 seconds
+Time for sampling (singles):     3 seconds
+DAG statistics
+mean edges/level: 27     max edges/level: 85
+mean edges/node:  1.271  mean count/edge: 186
+
+Window=1 Iteration=10
+Time for building model:         16 seconds
+Time for sampling (singles):     4 seconds
+DAG statistics
+mean edges/level: 27     max edges/level: 87
+mean edges/node:  1.280  mean count/edge: 186
+
+Number of markers:               12688
+Total time for building model: 2 minutes 43 seconds
+Total time for sampling:       32 seconds
+Total run time:                7 minutes 55 seconds
+
+End time: 07:43 PM EDT on 19 Apr 2024
+beagle.27Jul16.86a.jar (version 4.1) finished
+beagle.27Jul16.86a.jar (version 4.1)
+Copyright (C) 2014-2015 Brian L. Browning
+Enter "java -jar beagle.27Jul16.86a.jar" for a summary of command line arguments.
+Start time: 07:43 PM EDT on 19 Apr 2024
+
+Command line: java -Xmx18204m -jar beagle.jar
+  gt=/home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/iisa_3-results/germline/chr8.germline.vcf
+  ref=/home/lchanem1/data-abattle4/lakshmi/GRCh37_renamed/ALL.chr8.phase3_shapeit2_mvncall_integrated_v5b.20130502.genotypes_rename.vcf.gz
+  chrom=chr8
+  out=/home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/iisa_3-results/germline/chr8.phased
+  impute=false
+  modelscale=2
+  nthreads=24
+  gprobs=true
+  niterations=0
+
+No genetic map is specified: using 1 cM = 1 Mb
+
+reference samples:    2504
+target samples:          1
+
+Window=1 Iteration=3
+Time for building model:         20 seconds
+Time for sampling (singles):     2 seconds
+DAG statistics
+mean edges/level: 27     max edges/level: 79
+mean edges/node:  1.287  mean count/edge: 186
+
+Window=1 Iteration=4
+Time for building model:         26 seconds
+Time for sampling (singles):     3 seconds
+DAG statistics
+mean edges/level: 27     max edges/level: 88
+mean edges/node:  1.270  mean count/edge: 186
+
+Window=1 Iteration=4
+Time for building model:         18 seconds
+Time for sampling (singles):     2 seconds
+DAG statistics
+mean edges/level: 27     max edges/level: 76
+mean edges/node:  1.284  mean count/edge: 186
+
+reference samples:    2504
+target samples:          1
+
+Window=1 Iteration=5
+Time for building model:         19 seconds
+Time for sampling (singles):     2 seconds
+DAG statistics
+mean edges/level: 27     max edges/level: 77
+mean edges/node:  1.286  mean count/edge: 186
+
+Window=1 Iteration=5
+Time for building model:         23 seconds
+Time for sampling (singles):     3 seconds
+DAG statistics
+mean edges/level: 27     max edges/level: 83
+mean edges/node:  1.270  mean count/edge: 186
+Lines   total/split/realigned/skipped:	24469938/169322/15665/0
+beagle.27Jul16.86a.jar (version 4.1)
+Copyright (C) 2014-2015 Brian L. Browning
+Enter "java -jar beagle.27Jul16.86a.jar" for a summary of command line arguments.
+Start time: 07:44 PM EDT on 19 Apr 2024
+
+Command line: java -Xmx18204m -jar beagle.jar
+  gl=/home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/iisa_3-results/germline/chr3.gl.vcf.gz
+  ref=/home/lchanem1/data-abattle4/lakshmi/GRCh37_renamed/ALL.chr3.phase3_shapeit2_mvncall_integrated_v5b.20130502.genotypes_rename.vcf.gz
+  chrom=chr3
+  out=/home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/iisa_3-results/germline/chr3.gp
+  impute=false
+  modelscale=2
+  nthreads=24
+  gprobs=true
+  niterations=0
+
+No genetic map is specified: using 1 cM = 1 Mb
+
+Window=1 Iteration=6
+Time for building model:         18 seconds
+Time for sampling (singles):     4 seconds
+DAG statistics
+mean edges/level: 27     max edges/level: 73
+mean edges/node:  1.285  mean count/edge: 186
+
+Window=1 Iteration=6
+Time for building model:         24 seconds
+Time for sampling (singles):     5 seconds
+DAG statistics
+mean edges/level: 27     max edges/level: 87
+mean edges/node:  1.269  mean count/edge: 186
+
+reference samples:    2504
+target samples:          1
+
+Window=1 Iteration=7
+Time for building model:         16 seconds
+Time for sampling (singles):     3 seconds
+DAG statistics
+mean edges/level: 27     max edges/level: 77
+mean edges/node:  1.286  mean count/edge: 186
+
+Window=1 Iteration=7
+Time for building model:         19 seconds
+Time for sampling (singles):     5 seconds
+DAG statistics
+mean edges/level: 27     max edges/level: 86
+mean edges/node:  1.269  mean count/edge: 186
+
+Window=1 Iteration=8
+Time for building model:         16 seconds
+Time for sampling (singles):     4 seconds
+DAG statistics
+mean edges/level: 28     max edges/level: 80
+mean edges/node:  1.282  mean count/edge: 179
+
+Window=1 Iteration=8
+Time for building model:         21 seconds
+Time for sampling (singles):     5 seconds
+DAG statistics
+mean edges/level: 28     max edges/level: 87
+mean edges/node:  1.269  mean count/edge: 179
+
+Window=1 Iteration=9
+Time for building model:         17 seconds
+Time for sampling (singles):     3 seconds
+DAG statistics
+mean edges/level: 27     max edges/level: 77
+mean edges/node:  1.285  mean count/edge: 186
+Lines   total/split/realigned/skipped:	19390335/131487/11582/0
+beagle.27Jul16.86a.jar (version 4.1)
+Copyright (C) 2014-2015 Brian L. Browning
+Enter "java -jar beagle.27Jul16.86a.jar" for a summary of command line arguments.
+Start time: 07:46 PM EDT on 19 Apr 2024
+
+Command line: java -Xmx18204m -jar beagle.jar
+  gl=/home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/iisa_3-results/germline/chr7.gl.vcf.gz
+  ref=/home/lchanem1/data-abattle4/lakshmi/GRCh37_renamed/ALL.chr7.phase3_shapeit2_mvncall_integrated_v5b.20130502.genotypes_rename.vcf.gz
+  chrom=chr7
+  out=/home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/iisa_3-results/germline/chr7.gp
+  impute=false
+  modelscale=2
+  nthreads=24
+  gprobs=true
+  niterations=0
+
+No genetic map is specified: using 1 cM = 1 Mb
+
+Window=1 Iteration=9
+Time for building model:         21 seconds
+Time for sampling (singles):     5 seconds
+DAG statistics
+mean edges/level: 28     max edges/level: 95
+mean edges/node:  1.269  mean count/edge: 179
+
+Window=1 Iteration=10
+Time for building model:         19 seconds
+Time for sampling (singles):     4 seconds
+DAG statistics
+mean edges/level: 27     max edges/level: 78
+mean edges/node:  1.286  mean count/edge: 186
+
+Number of markers:               12607
+Total time for building model: 3 minutes 4 seconds
+Total time for sampling:       30 seconds
+Total run time:                7 minutes 18 seconds
+
+End time: 07:46 PM EDT on 19 Apr 2024
+beagle.27Jul16.86a.jar (version 4.1) finished
+beagle.27Jul16.86a.jar (version 4.1)
+Copyright (C) 2014-2015 Brian L. Browning
+Enter "java -jar beagle.27Jul16.86a.jar" for a summary of command line arguments.
+Start time: 07:46 PM EDT on 19 Apr 2024
+
+Command line: java -Xmx18204m -jar beagle.jar
+  gt=/home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/iisa_3-results/germline/chr9.germline.vcf
+  ref=/home/lchanem1/data-abattle4/lakshmi/GRCh37_renamed/ALL.chr9.phase3_shapeit2_mvncall_integrated_v5b.20130502.genotypes_rename.vcf.gz
+  chrom=chr9
+  out=/home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/iisa_3-results/germline/chr9.phased
+  impute=false
+  modelscale=2
+  nthreads=24
+  gprobs=true
+  niterations=0
+
+No genetic map is specified: using 1 cM = 1 Mb
+
+reference samples:    2504
+target samples:          1
+
+reference samples:    2504
+target samples:          1
+
+Window=1 Iteration=10
+Time for building model:         28 seconds
+Time for sampling (singles):     5 seconds
+DAG statistics
+mean edges/level: 28     max edges/level: 85
+mean edges/node:  1.268  mean count/edge: 179
+
+Number of markers:               16040
+Total time for building model: 3 minutes 48 seconds
+Total time for sampling:       41 seconds
+Total run time:                10 minutes 6 seconds
+
+End time: 07:46 PM EDT on 19 Apr 2024
+beagle.27Jul16.86a.jar (version 4.1) finished
+beagle.27Jul16.86a.jar (version 4.1)
+Copyright (C) 2014-2015 Brian L. Browning
+Enter "java -jar beagle.27Jul16.86a.jar" for a summary of command line arguments.
+Start time: 07:46 PM EDT on 19 Apr 2024
+
+Command line: java -Xmx18204m -jar beagle.jar
+  gt=/home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/iisa_3-results/germline/chr4.germline.vcf
+  ref=/home/lchanem1/data-abattle4/lakshmi/GRCh37_renamed/ALL.chr4.phase3_shapeit2_mvncall_integrated_v5b.20130502.genotypes_rename.vcf.gz
+  chrom=chr4
+  out=/home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/iisa_3-results/germline/chr4.phased
+  impute=false
+  modelscale=2
+  nthreads=24
+  gprobs=true
+  niterations=0
+
+No genetic map is specified: using 1 cM = 1 Mb
+Lines   total/split/realigned/skipped:	19347769/144506/12035/0
+beagle.27Jul16.86a.jar (version 4.1)
+Copyright (C) 2014-2015 Brian L. Browning
+Enter "java -jar beagle.27Jul16.86a.jar" for a summary of command line arguments.
+Start time: 07:46 PM EDT on 19 Apr 2024
+
+Command line: java -Xmx18204m -jar beagle.jar
+  gl=/home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/iisa_3-results/germline/chr6.gl.vcf.gz
+  ref=/home/lchanem1/data-abattle4/lakshmi/GRCh37_renamed/ALL.chr6.phase3_shapeit2_mvncall_integrated_v5b.20130502.genotypes_rename.vcf.gz
+  chrom=chr6
+  out=/home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/iisa_3-results/germline/chr6.gp
+  impute=false
+  modelscale=2
+  nthreads=24
+  gprobs=true
+  niterations=0
+
+No genetic map is specified: using 1 cM = 1 Mb
+
+reference samples:    2504
+target samples:          1
+
+reference samples:    2504
+target samples:          1
+
+Window 1 [ chr10:67774-135370060 ]
+reference markers:   11038
+target markers:      11038
+
+Starting burn-in iterations
+
+Window 1 [ chr5:92341-180736063 ]
+reference markers:   16582
+target markers:      16582
+
+Starting burn-in iterations
+
+Window=1 Iteration=1
+Time for building model:         16 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 27     max edges/level: 83
+mean edges/node:  1.336  mean count/edge: 186
+
+Window=1 Iteration=2
+Time for building model:         16 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 26     max edges/level: 89
+mean edges/node:  1.317  mean count/edge: 193
+
+Window=1 Iteration=1
+Time for building model:         29 seconds
+Time for sampling (singles):     4 seconds
+DAG statistics
+mean edges/level: 28     max edges/level: 91
+mean edges/node:  1.284  mean count/edge: 179
+
+Window=1 Iteration=3
+Time for building model:         16 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 26     max edges/level: 82
+mean edges/node:  1.316  mean count/edge: 193
+
+Window 1 [ chr8:160210-146283264 ]
+reference markers:   10912
+target markers:      10912
+
+Starting burn-in iterations
+
+Window=1 Iteration=4
+Time for building model:         15 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 26     max edges/level: 88
+mean edges/node:  1.318  mean count/edge: 193
+
+Window=1 Iteration=2
+Time for building model:         31 seconds
+Time for sampling (singles):     4 seconds
+DAG statistics
+mean edges/level: 27     max edges/level: 80
+mean edges/node:  1.266  mean count/edge: 186
+
+Window=1 Iteration=1
+Time for building model:         15 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 28     max edges/level: 88
+mean edges/node:  1.331  mean count/edge: 179
+
+Window=1 Iteration=5
+Time for building model:         14 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 26     max edges/level: 83
+mean edges/node:  1.315  mean count/edge: 193
+
+Window=1 Iteration=2
+Time for building model:         12 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 28     max edges/level: 80
+mean edges/node:  1.313  mean count/edge: 179
+
+Window=1 Iteration=6
+Time for building model:         13 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 26     max edges/level: 85
+mean edges/node:  1.317  mean count/edge: 193
+
+Window=1 Iteration=3
+Time for building model:         22 seconds
+Time for sampling (singles):     4 seconds
+DAG statistics
+mean edges/level: 27     max edges/level: 86
+mean edges/node:  1.261  mean count/edge: 186
+
+Window=1 Iteration=3
+Time for building model:         13 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 27     max edges/level: 80
+mean edges/node:  1.312  mean count/edge: 186
+
+Window=1 Iteration=7
+Time for building model:         13 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 26     max edges/level: 80
+mean edges/node:  1.316  mean count/edge: 193
+
+Window=1 Iteration=4
+Time for building model:         14 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 28     max edges/level: 82
+mean edges/node:  1.312  mean count/edge: 179
+
+Window=1 Iteration=8
+Time for building model:         13 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 26     max edges/level: 77
+mean edges/node:  1.316  mean count/edge: 193
+
+Window=1 Iteration=4
+Time for building model:         24 seconds
+Time for sampling (singles):     3 seconds
+DAG statistics
+mean edges/level: 27     max edges/level: 82
+mean edges/node:  1.263  mean count/edge: 186
+
+Window=1 Iteration=9
+Time for building model:         14 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 26     max edges/level: 83
+mean edges/node:  1.316  mean count/edge: 193
+
+Window=1 Iteration=5
+Time for building model:         19 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 28     max edges/level: 81
+mean edges/node:  1.312  mean count/edge: 179
+
+Window=1 Iteration=10
+Time for building model:         14 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 26     max edges/level: 86
+mean edges/node:  1.316  mean count/edge: 193
+
+Number of markers:               11038
+Total time for building model: 2 minutes 22 seconds
+Total time for sampling:       1 second
+Total run time:                6 minutes 27 seconds
+
+End time: 07:49 PM EDT on 19 Apr 2024
+beagle.27Jul16.86a.jar (version 4.1) finished
+[mpileup] 1 samples in 1 input files
+(mpileup) Max depth is above 1M. Potential memory hog!
+
+Window=1 Iteration=6
+Time for building model:         16 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 27     max edges/level: 78
+mean edges/node:  1.313  mean count/edge: 186
+
+Window=1 Iteration=5
+Time for building model:         25 seconds
+Time for sampling (singles):     4 seconds
+DAG statistics
+mean edges/level: 27     max edges/level: 85
+mean edges/node:  1.262  mean count/edge: 186
+
+Window 1 [ chr9:14690-141093223 ]
+reference markers:   10584
+target markers:      10584
+
+Starting burn-in iterations
+
+Window=1 Iteration=7
+Time for building model:         16 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 28     max edges/level: 84
+mean edges/node:  1.312  mean count/edge: 179
+
+Window=1 Iteration=1
+Time for building model:         14 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 28     max edges/level: 77
+mean edges/node:  1.344  mean count/edge: 179
+
+Window=1 Iteration=8
+Time for building model:         15 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 28     max edges/level: 83
+mean edges/node:  1.311  mean count/edge: 179
+
+Window=1 Iteration=6
+Time for building model:         27 seconds
+Time for sampling (singles):     5 seconds
+DAG statistics
+mean edges/level: 27     max edges/level: 82
+mean edges/node:  1.265  mean count/edge: 186
+
+Window=1 Iteration=2
+Time for building model:         13 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 27     max edges/level: 76
+mean edges/node:  1.326  mean count/edge: 186
+
+Window=1 Iteration=9
+Time for building model:         15 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 28     max edges/level: 88
+mean edges/node:  1.312  mean count/edge: 179
+
+Window=1 Iteration=3
+Time for building model:         13 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 27     max edges/level: 78
+mean edges/node:  1.327  mean count/edge: 186
+
+Window=1 Iteration=4
+Time for building model:         12 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 27     max edges/level: 77
+mean edges/node:  1.323  mean count/edge: 186
+
+Window=1 Iteration=10
+Time for building model:         15 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 28     max edges/level: 83
+mean edges/node:  1.311  mean count/edge: 179
+
+Number of markers:               10912
+Total time for building model: 2 minutes 29 seconds
+Total time for sampling:       1 second
+Total run time:                7 minutes 13 seconds
+
+End time: 07:50 PM EDT on 19 Apr 2024
+beagle.27Jul16.86a.jar (version 4.1) finished
+[mpileup] 1 samples in 1 input files
+
+Window=1 Iteration=7
+Time for building model:         25 seconds
+Time for sampling (singles):     5 seconds
+DAG statistics
+mean edges/level: 27     max edges/level: 87
+mean edges/node:  1.261  mean count/edge: 186
+(mpileup) Max depth is above 1M. Potential memory hog!
+
+Window 1 [ chr3:228784-197897915 ]
+reference markers:   21245
+target markers:      21245
+
+Starting burn-in iterations
+
+Window=1 Iteration=5
+Time for building model:         14 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 27     max edges/level: 75
+mean edges/node:  1.326  mean count/edge: 186
+
+Window=1 Iteration=8
+Time for building model:         22 seconds
+Time for sampling (singles):     5 seconds
+DAG statistics
+mean edges/level: 27     max edges/level: 85
+mean edges/node:  1.262  mean count/edge: 186
+
+Window=1 Iteration=6
+Time for building model:         14 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 27     max edges/level: 83
+mean edges/node:  1.324  mean count/edge: 186
+
+Window=1 Iteration=1
+Time for building model:         33 seconds
+Time for sampling (singles):     5 seconds
+DAG statistics
+mean edges/level: 30     max edges/level: 94
+mean edges/node:  1.266  mean count/edge: 167
+
+Window=1 Iteration=7
+Time for building model:         13 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 27     max edges/level: 76
+mean edges/node:  1.325  mean count/edge: 186
+
+Window 1 [ chr7:51732-158938441 ]
+reference markers:   17181
+target markers:      17181
+
+Starting burn-in iterations
+
+Window=1 Iteration=8
+Time for building model:         14 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 27     max edges/level: 76
+mean edges/node:  1.324  mean count/edge: 186
+
+Window=1 Iteration=9
+Time for building model:         23 seconds
+Time for sampling (singles):     5 seconds
+DAG statistics
+mean edges/level: 27     max edges/level: 87
+mean edges/node:  1.264  mean count/edge: 186
+
+Window 1 [ chr6:294268-170895529 ]
+reference markers:   17409
+target markers:      17409
+
+Starting burn-in iterations
+
+Window=1 Iteration=9
+Time for building model:         15 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 27     max edges/level: 79
+mean edges/node:  1.326  mean count/edge: 186
+
+Window=1 Iteration=2
+Time for building model:         32 seconds
+Time for sampling (singles):     5 seconds
+DAG statistics
+mean edges/level: 30     max edges/level: 93
+mean edges/node:  1.244  mean count/edge: 167
+
+Window=1 Iteration=1
+Time for building model:         34 seconds
+Time for sampling (singles):     4 seconds
+DAG statistics
+mean edges/level: 30     max edges/level: 87
+mean edges/node:  1.280  mean count/edge: 167
+
+Window=1 Iteration=10
+Time for building model:         23 seconds
+Time for sampling (singles):     5 seconds
+DAG statistics
+mean edges/level: 27     max edges/level: 78
+mean edges/node:  1.263  mean count/edge: 186
+
+Number of markers:               16582
+Total time for building model: 4 minutes 9 seconds
+Total time for sampling:       42 seconds
+Total run time:                10 minutes 59 seconds
+
+End time: 07:52 PM EDT on 19 Apr 2024
+beagle.27Jul16.86a.jar (version 4.1) finished
+beagle.27Jul16.86a.jar (version 4.1)
+Copyright (C) 2014-2015 Brian L. Browning
+Enter "java -jar beagle.27Jul16.86a.jar" for a summary of command line arguments.
+Start time: 07:52 PM EDT on 19 Apr 2024
+
+Command line: java -Xmx18204m -jar beagle.jar
+  gt=/home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/iisa_3-results/germline/chr5.germline.vcf
+  ref=/home/lchanem1/data-abattle4/lakshmi/GRCh37_renamed/ALL.chr5.phase3_shapeit2_mvncall_integrated_v5b.20130502.genotypes_rename.vcf.gz
+  chrom=chr5
+  out=/home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/iisa_3-results/germline/chr5.phased
+  impute=false
+  modelscale=2
+  nthreads=24
+  gprobs=true
+  niterations=0
+
+No genetic map is specified: using 1 cM = 1 Mb
+
+Window=1 Iteration=10
+Time for building model:         15 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 27     max edges/level: 73
+mean edges/node:  1.323  mean count/edge: 186
+
+Number of markers:               10584
+Total time for building model: 2 minutes 18 seconds
+Total time for sampling:       1 second
+Total run time:                6 minutes 6 seconds
+
+End time: 07:52 PM EDT on 19 Apr 2024
+beagle.27Jul16.86a.jar (version 4.1) finished
+[mpileup] 1 samples in 1 input files
+(mpileup) Max depth is above 1M. Potential memory hog!
+
+Window=1 Iteration=1
+Time for building model:         29 seconds
+Time for sampling (singles):     5 seconds
+DAG statistics
+mean edges/level: 31     max edges/level: 100
+mean edges/node:  1.248  mean count/edge: 162
+
+reference samples:    2504
+target samples:          1
+
+Window=1 Iteration=3
+Time for building model:         32 seconds
+Time for sampling (singles):     5 seconds
+DAG statistics
+mean edges/level: 29     max edges/level: 93
+mean edges/node:  1.246  mean count/edge: 173
+
+Window=1 Iteration=2
+Time for building model:         31 seconds
+Time for sampling (singles):     4 seconds
+DAG statistics
+mean edges/level: 29     max edges/level: 84
+mean edges/node:  1.266  mean count/edge: 173
+
+Window=1 Iteration=2
+Time for building model:         27 seconds
+Time for sampling (singles):     5 seconds
+DAG statistics
+mean edges/level: 31     max edges/level: 104
+mean edges/node:  1.228  mean count/edge: 162
+
+Window 1 [ chr4:53428-190887727 ]
+reference markers:   14281
+target markers:      14281
+
+Starting burn-in iterations
+
+Window=1 Iteration=3
+Time for building model:         28 seconds
+Time for sampling (singles):     4 seconds
+DAG statistics
+mean edges/level: 29     max edges/level: 88
+mean edges/node:  1.262  mean count/edge: 173
+
+Window=1 Iteration=4
+Time for building model:         29 seconds
+Time for sampling (singles):     5 seconds
+DAG statistics
+mean edges/level: 30     max edges/level: 88
+mean edges/node:  1.243  mean count/edge: 167
+
+Window=1 Iteration=1
+Time for building model:         21 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 28     max edges/level: 78
+mean edges/node:  1.312  mean count/edge: 179
+
+Window=1 Iteration=3
+Time for building model:         27 seconds
+Time for sampling (singles):     5 seconds
+DAG statistics
+mean edges/level: 31     max edges/level: 96
+mean edges/node:  1.228  mean count/edge: 162
+Lines   total/split/realigned/skipped:	27773290/189700/17202/0
+beagle.27Jul16.86a.jar (version 4.1)
+Copyright (C) 2014-2015 Brian L. Browning
+Enter "java -jar beagle.27Jul16.86a.jar" for a summary of command line arguments.
+Start time: 07:53 PM EDT on 19 Apr 2024
+
+Command line: java -Xmx18204m -jar beagle.jar
+  gl=/home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/iisa_3-results/germline/chr2.gl.vcf.gz
+  ref=/home/lchanem1/data-abattle4/lakshmi/GRCh37_renamed/ALL.chr2.phase3_shapeit2_mvncall_integrated_v5b.20130502.genotypes_rename.vcf.gz
+  chrom=chr2
+  out=/home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/iisa_3-results/germline/chr2.gp
+  impute=false
+  modelscale=2
+  nthreads=24
+  gprobs=true
+  niterations=0
+
+No genetic map is specified: using 1 cM = 1 Mb
+
+Window=1 Iteration=2
+Time for building model:         23 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 27     max edges/level: 81
+mean edges/node:  1.291  mean count/edge: 186
+
+Window=1 Iteration=4
+Time for building model:         31 seconds
+Time for sampling (singles):     4 seconds
+DAG statistics
+mean edges/level: 29     max edges/level: 86
+mean edges/node:  1.263  mean count/edge: 173
+
+Window=1 Iteration=5
+Time for building model:         33 seconds
+Time for sampling (singles):     5 seconds
+DAG statistics
+mean edges/level: 29     max edges/level: 92
+mean edges/node:  1.246  mean count/edge: 173
+
+Window=1 Iteration=4
+Time for building model:         26 seconds
+Time for sampling (singles):     5 seconds
+DAG statistics
+mean edges/level: 30     max edges/level: 99
+mean edges/node:  1.229  mean count/edge: 167
+
+reference samples:    2504
+target samples:          1
+
+Window=1 Iteration=3
+Time for building model:         26 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 28     max edges/level: 86
+mean edges/node:  1.291  mean count/edge: 179
+
+Window=1 Iteration=5
+Time for building model:         31 seconds
+Time for sampling (singles):     4 seconds
+DAG statistics
+mean edges/level: 29     max edges/level: 82
+mean edges/node:  1.263  mean count/edge: 173
+
+Window=1 Iteration=5
+Time for building model:         27 seconds
+Time for sampling (singles):     5 seconds
+DAG statistics
+mean edges/level: 31     max edges/level: 95
+mean edges/node:  1.228  mean count/edge: 162
+
+Window=1 Iteration=6
+Time for building model:         31 seconds
+Time for sampling (singles):     7 seconds
+DAG statistics
+mean edges/level: 30     max edges/level: 91
+mean edges/node:  1.242  mean count/edge: 167
+
+Window=1 Iteration=4
+Time for building model:         26 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 28     max edges/level: 87
+mean edges/node:  1.291  mean count/edge: 179
+
+Window=1 Iteration=6
+Time for building model:         28 seconds
+Time for sampling (singles):     6 seconds
+DAG statistics
+mean edges/level: 29     max edges/level: 88
+mean edges/node:  1.263  mean count/edge: 173
+
+Window=1 Iteration=5
+Time for building model:         22 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 27     max edges/level: 83
+mean edges/node:  1.293  mean count/edge: 186
+
+Window=1 Iteration=6
+Time for building model:         26 seconds
+Time for sampling (singles):     7 seconds
+DAG statistics
+mean edges/level: 30     max edges/level: 98
+mean edges/node:  1.231  mean count/edge: 167
+
+Window=1 Iteration=7
+Time for building model:         32 seconds
+Time for sampling (singles):     7 seconds
+DAG statistics
+mean edges/level: 30     max edges/level: 87
+mean edges/node:  1.245  mean count/edge: 167
+
+Window=1 Iteration=6
+Time for building model:         23 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 27     max edges/level: 85
+mean edges/node:  1.291  mean count/edge: 186
+
+Window=1 Iteration=7
+Time for building model:         27 seconds
+Time for sampling (singles):     6 seconds
+DAG statistics
+mean edges/level: 29     max edges/level: 82
+mean edges/node:  1.262  mean count/edge: 173
+
+Window=1 Iteration=7
+Time for building model:         27 seconds
+Time for sampling (singles):     7 seconds
+DAG statistics
+mean edges/level: 31     max edges/level: 98
+mean edges/node:  1.228  mean count/edge: 162
+
+Window=1 Iteration=7
+Time for building model:         22 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 28     max edges/level: 80
+mean edges/node:  1.290  mean count/edge: 179
+
+Window=1 Iteration=8
+Time for building model:         30 seconds
+Time for sampling (singles):     7 seconds
+DAG statistics
+mean edges/level: 30     max edges/level: 97
+mean edges/node:  1.242  mean count/edge: 167
+
+Window=1 Iteration=8
+Time for building model:         21 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 27     max edges/level: 83
+mean edges/node:  1.291  mean count/edge: 186
+
+Window=1 Iteration=8
+Time for building model:         29 seconds
+Time for sampling (singles):     5 seconds
+DAG statistics
+mean edges/level: 29     max edges/level: 80
+mean edges/node:  1.264  mean count/edge: 173
+
+Window=1 Iteration=8
+Time for building model:         26 seconds
+Time for sampling (singles):     7 seconds
+DAG statistics
+mean edges/level: 30     max edges/level: 99
+mean edges/node:  1.229  mean count/edge: 167
+
+Window=1 Iteration=9
+Time for building model:         21 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 27     max edges/level: 84
+mean edges/node:  1.291  mean count/edge: 186
+
+Window=1 Iteration=9
+Time for building model:         29 seconds
+Time for sampling (singles):     7 seconds
+DAG statistics
+mean edges/level: 29     max edges/level: 92
+mean edges/node:  1.247  mean count/edge: 173
+
+Window=1 Iteration=9
+Time for building model:         27 seconds
+Time for sampling (singles):     6 seconds
+DAG statistics
+mean edges/level: 29     max edges/level: 89
+mean edges/node:  1.261  mean count/edge: 173
+
+Window=1 Iteration=9
+Time for building model:         26 seconds
+Time for sampling (singles):     7 seconds
+DAG statistics
+mean edges/level: 31     max edges/level: 101
+mean edges/node:  1.228  mean count/edge: 162
+
+Window=1 Iteration=10
+Time for building model:         21 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 27     max edges/level: 81
+mean edges/node:  1.292  mean count/edge: 186
+
+Number of markers:               14281
+Total time for building model: 3 minutes 45 seconds
+Total time for sampling:       1 second
+Total run time:                10 minutes 7 seconds
+
+End time: 07:56 PM EDT on 19 Apr 2024
+beagle.27Jul16.86a.jar (version 4.1) finished
+[mpileup] 1 samples in 1 input files
+(mpileup) Max depth is above 1M. Potential memory hog!
+
+Window=1 Iteration=10
+Time for building model:         30 seconds
+Time for sampling (singles):     7 seconds
+DAG statistics
+mean edges/level: 30     max edges/level: 90
+mean edges/node:  1.244  mean count/edge: 167
+
+Number of markers:               21245
+Total time for building model: 5 minutes 13 seconds
+Total time for sampling:       1 minute 1 second
+Total run time:                12 minutes 28 seconds
+
+End time: 07:57 PM EDT on 19 Apr 2024
+beagle.27Jul16.86a.jar (version 4.1) finished
+beagle.27Jul16.86a.jar (version 4.1)
+Copyright (C) 2014-2015 Brian L. Browning
+Enter "java -jar beagle.27Jul16.86a.jar" for a summary of command line arguments.
+Start time: 07:57 PM EDT on 19 Apr 2024
+
+Command line: java -Xmx18204m -jar beagle.jar
+  gt=/home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/iisa_3-results/germline/chr3.germline.vcf
+  ref=/home/lchanem1/data-abattle4/lakshmi/GRCh37_renamed/ALL.chr3.phase3_shapeit2_mvncall_integrated_v5b.20130502.genotypes_rename.vcf.gz
+  chrom=chr3
+  out=/home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/iisa_3-results/germline/chr3.phased
+  impute=false
+  modelscale=2
+  nthreads=24
+  gprobs=true
+  niterations=0
+
+No genetic map is specified: using 1 cM = 1 Mb
+
+Window 1 [ chr5:92341-180736063 ]
+reference markers:   14317
+target markers:      14317
+
+Starting burn-in iterations
+
+Window=1 Iteration=10
+Time for building model:         25 seconds
+Time for sampling (singles):     6 seconds
+DAG statistics
+mean edges/level: 29     max edges/level: 86
+mean edges/node:  1.264  mean count/edge: 173
+
+Number of markers:               17181
+Total time for building model: 4 minutes 51 seconds
+Total time for sampling:       48 seconds
+Total run time:                11 minutes 13 seconds
+
+End time: 07:57 PM EDT on 19 Apr 2024
+beagle.27Jul16.86a.jar (version 4.1) finished
+beagle.27Jul16.86a.jar (version 4.1)
+Copyright (C) 2014-2015 Brian L. Browning
+Enter "java -jar beagle.27Jul16.86a.jar" for a summary of command line arguments.
+Start time: 07:57 PM EDT on 19 Apr 2024
+
+Command line: java -Xmx18204m -jar beagle.jar
+  gt=/home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/iisa_3-results/germline/chr7.germline.vcf
+  ref=/home/lchanem1/data-abattle4/lakshmi/GRCh37_renamed/ALL.chr7.phase3_shapeit2_mvncall_integrated_v5b.20130502.genotypes_rename.vcf.gz
+  chrom=chr7
+  out=/home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/iisa_3-results/germline/chr7.phased
+  impute=false
+  modelscale=2
+  nthreads=24
+  gprobs=true
+  niterations=0
+
+No genetic map is specified: using 1 cM = 1 Mb
+Lines   total/split/realigned/skipped:	9323346/50026/5812/0
+beagle.27Jul16.86a.jar (version 4.1)
+Copyright (C) 2014-2015 Brian L. Browning
+Enter "java -jar beagle.27Jul16.86a.jar" for a summary of command line arguments.
+Start time: 07:57 PM EDT on 19 Apr 2024
+
+Command line: java -Xmx18204m -jar beagle.jar
+  gl=/home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/iisa_3-results/germline/chr13.gl.vcf.gz
+  ref=/home/lchanem1/data-abattle4/lakshmi/GRCh37_renamed/ALL.chr13.phase3_shapeit2_mvncall_integrated_v5b.20130502.genotypes_rename.vcf.gz
+  chrom=chr13
+  out=/home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/iisa_3-results/germline/chr13.gp
+  impute=false
+  modelscale=2
+  nthreads=24
+  gprobs=true
+  niterations=0
+
+No genetic map is specified: using 1 cM = 1 Mb
+
+Window=1 Iteration=10
+Time for building model:         26 seconds
+Time for sampling (singles):     8 seconds
+DAG statistics
+mean edges/level: 31     max edges/level: 98
+mean edges/node:  1.229  mean count/edge: 162
+
+Number of markers:               17409
+Total time for building model: 4 minutes 28 seconds
+Total time for sampling:       1 minute 2 seconds
+Total run time:                10 minutes 36 seconds
+
+End time: 07:57 PM EDT on 19 Apr 2024
+beagle.27Jul16.86a.jar (version 4.1) finished
+beagle.27Jul16.86a.jar (version 4.1)
+Copyright (C) 2014-2015 Brian L. Browning
+Enter "java -jar beagle.27Jul16.86a.jar" for a summary of command line arguments.
+Start time: 07:57 PM EDT on 19 Apr 2024
+
+Command line: java -Xmx18204m -jar beagle.jar
+  gt=/home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/iisa_3-results/germline/chr6.germline.vcf
+  ref=/home/lchanem1/data-abattle4/lakshmi/GRCh37_renamed/ALL.chr6.phase3_shapeit2_mvncall_integrated_v5b.20130502.genotypes_rename.vcf.gz
+  chrom=chr6
+  out=/home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/iisa_3-results/germline/chr6.phased
+  impute=false
+  modelscale=2
+  nthreads=24
+  gprobs=true
+  niterations=0
+
+No genetic map is specified: using 1 cM = 1 Mb
+
+Window=1 Iteration=1
+Time for building model:         17 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 28     max edges/level: 85
+mean edges/node:  1.311  mean count/edge: 179
+
+reference samples:    2504
+target samples:          1
+
+reference samples:    2504
+target samples:          1
+
+reference samples:    2504
+target samples:          1
+
+reference samples:    2504
+target samples:          1
+
+Window=1 Iteration=2
+Time for building model:         18 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 27     max edges/level: 81
+mean edges/node:  1.293  mean count/edge: 186
+
+Window=1 Iteration=3
+Time for building model:         17 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 28     max edges/level: 87
+mean edges/node:  1.289  mean count/edge: 179
+
+Window=1 Iteration=4
+Time for building model:         18 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 28     max edges/level: 79
+mean edges/node:  1.291  mean count/edge: 179
+
+Window=1 Iteration=5
+Time for building model:         17 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 27     max edges/level: 83
+mean edges/node:  1.291  mean count/edge: 186
+
+Window=1 Iteration=6
+Time for building model:         17 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 27     max edges/level: 80
+mean edges/node:  1.291  mean count/edge: 186
+
+Window=1 Iteration=7
+Time for building model:         17 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 28     max edges/level: 87
+mean edges/node:  1.289  mean count/edge: 179
+
+Window=1 Iteration=8
+Time for building model:         19 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 27     max edges/level: 79
+mean edges/node:  1.291  mean count/edge: 186
+
+Window=1 Iteration=9
+Time for building model:         17 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 28     max edges/level: 89
+mean edges/node:  1.289  mean count/edge: 179
+
+Window=1 Iteration=10
+Time for building model:         19 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 27     max edges/level: 77
+mean edges/node:  1.291  mean count/edge: 186
+
+Number of markers:               14317
+Total time for building model: 2 minutes 56 seconds
+Total time for sampling:       1 second
+Total run time:                7 minutes 51 seconds
+
+End time: 08:00 PM EDT on 19 Apr 2024
+beagle.27Jul16.86a.jar (version 4.1) finished
+[mpileup] 1 samples in 1 input files
+(mpileup) Max depth is above 1M. Potential memory hog!
+
+Window 1 [ chr13:19255362-115090634 ]
+reference markers:    8588
+target markers:       8588
+
+Starting burn-in iterations
+
+Window=1 Iteration=1
+Time for building model:         13 seconds
+Time for sampling (singles):     2 seconds
+DAG statistics
+mean edges/level: 26     max edges/level: 78
+mean edges/node:  1.293  mean count/edge: 193
+
+Window=1 Iteration=2
+Time for building model:         13 seconds
+Time for sampling (singles):     2 seconds
+DAG statistics
+mean edges/level: 26     max edges/level: 79
+mean edges/node:  1.271  mean count/edge: 193
+
+Window 1 [ chr2:217826-243166524 ]
+reference markers:   23898
+target markers:      23898
+
+Starting burn-in iterations
+
+Window=1 Iteration=3
+Time for building model:         12 seconds
+Time for sampling (singles):     2 seconds
+DAG statistics
+mean edges/level: 26     max edges/level: 79
+mean edges/node:  1.270  mean count/edge: 193
+
+Window=1 Iteration=4
+Time for building model:         13 seconds
+Time for sampling (singles):     2 seconds
+DAG statistics
+mean edges/level: 26     max edges/level: 76
+mean edges/node:  1.273  mean count/edge: 193
+
+Window=1 Iteration=5
+Time for building model:         14 seconds
+Time for sampling (singles):     2 seconds
+DAG statistics
+mean edges/level: 26     max edges/level: 79
+mean edges/node:  1.270  mean count/edge: 193
+
+Window=1 Iteration=1
+Time for building model:         35 seconds
+Time for sampling (singles):     6 seconds
+DAG statistics
+mean edges/level: 30     max edges/level: 92
+mean edges/node:  1.261  mean count/edge: 167
+
+Window=1 Iteration=6
+Time for building model:         13 seconds
+Time for sampling (singles):     2 seconds
+DAG statistics
+mean edges/level: 26     max edges/level: 77
+mean edges/node:  1.269  mean count/edge: 193
+
+Window 1 [ chr7:51732-158938441 ]
+reference markers:   14669
+target markers:      14669
+
+Starting burn-in iterations
+
+Window=1 Iteration=7
+Time for building model:         14 seconds
+Time for sampling (singles):     2 seconds
+DAG statistics
+mean edges/level: 26     max edges/level: 89
+mean edges/node:  1.272  mean count/edge: 193
+
+Window=1 Iteration=2
+Time for building model:         36 seconds
+Time for sampling (singles):     6 seconds
+DAG statistics
+mean edges/level: 29     max edges/level: 83
+mean edges/node:  1.247  mean count/edge: 173
+
+Window=1 Iteration=8
+Time for building model:         12 seconds
+Time for sampling (singles):     2 seconds
+DAG statistics
+mean edges/level: 26     max edges/level: 78
+mean edges/node:  1.270  mean count/edge: 193
+
+Window=1 Iteration=1
+Time for building model:         19 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 30     max edges/level: 83
+mean edges/node:  1.311  mean count/edge: 167
+
+Window=1 Iteration=9
+Time for building model:         12 seconds
+Time for sampling (singles):     2 seconds
+DAG statistics
+mean edges/level: 26     max edges/level: 75
+mean edges/node:  1.272  mean count/edge: 193
+
+Window 1 [ chr6:294268-170895529 ]
+reference markers:   14915
+target markers:      14915
+
+Starting burn-in iterations
+
+Window=1 Iteration=2
+Time for building model:         20 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 29     max edges/level: 82
+mean edges/node:  1.297  mean count/edge: 173
+
+Window=1 Iteration=10
+Time for building model:         12 seconds
+Time for sampling (singles):     2 seconds
+DAG statistics
+mean edges/level: 26     max edges/level: 80
+mean edges/node:  1.271  mean count/edge: 193
+
+Number of markers:                8588
+Total time for building model: 2 minutes 9 seconds
+Total time for sampling:       19 seconds
+Total run time:                5 minutes 31 seconds
+
+End time: 08:02 PM EDT on 19 Apr 2024
+beagle.27Jul16.86a.jar (version 4.1) finished
+beagle.27Jul16.86a.jar (version 4.1)
+Copyright (C) 2014-2015 Brian L. Browning
+Enter "java -jar beagle.27Jul16.86a.jar" for a summary of command line arguments.
+Start time: 08:02 PM EDT on 19 Apr 2024
+
+Command line: java -Xmx18204m -jar beagle.jar
+  gt=/home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/iisa_3-results/germline/chr13.germline.vcf
+  ref=/home/lchanem1/data-abattle4/lakshmi/GRCh37_renamed/ALL.chr13.phase3_shapeit2_mvncall_integrated_v5b.20130502.genotypes_rename.vcf.gz
+  chrom=chr13
+  out=/home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/iisa_3-results/germline/chr13.phased
+  impute=false
+  modelscale=2
+  nthreads=24
+  gprobs=true
+  niterations=0
+
+No genetic map is specified: using 1 cM = 1 Mb
+
+Window 1 [ chr3:228784-197897915 ]
+reference markers:   18503
+target markers:      18503
+
+Starting burn-in iterations
+
+Window=1 Iteration=3
+Time for building model:         36 seconds
+Time for sampling (singles):     6 seconds
+DAG statistics
+mean edges/level: 29     max edges/level: 95
+mean edges/node:  1.244  mean count/edge: 173
+
+Window=1 Iteration=3
+Time for building model:         21 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 30     max edges/level: 86
+mean edges/node:  1.291  mean count/edge: 167
+
+reference samples:    2504
+target samples:          1
+
+Window=1 Iteration=1
+Time for building model:         27 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 31     max edges/level: 109
+mean edges/node:  1.275  mean count/edge: 162
+
+Window=1 Iteration=1
+Time for building model:         27 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 30     max edges/level: 89
+mean edges/node:  1.297  mean count/edge: 167
+
+Window=1 Iteration=4
+Time for building model:         21 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 29     max edges/level: 85
+mean edges/node:  1.297  mean count/edge: 173
+
+Window=1 Iteration=2
+Time for building model:         27 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 31     max edges/level: 108
+mean edges/node:  1.255  mean count/edge: 162
+
+Window=1 Iteration=4
+Time for building model:         36 seconds
+Time for sampling (singles):     6 seconds
+DAG statistics
+mean edges/level: 29     max edges/level: 86
+mean edges/node:  1.245  mean count/edge: 173
+
+Window=1 Iteration=5
+Time for building model:         21 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 29     max edges/level: 82
+mean edges/node:  1.294  mean count/edge: 173
+
+Window=1 Iteration=2
+Time for building model:         27 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 29     max edges/level: 85
+mean edges/node:  1.273  mean count/edge: 173
+
+Window=1 Iteration=3
+Time for building model:         27 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 31     max edges/level: 110
+mean edges/node:  1.253  mean count/edge: 162
+
+Window=1 Iteration=6
+Time for building model:         20 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 29     max edges/level: 78
+mean edges/node:  1.296  mean count/edge: 173
+
+Window=1 Iteration=3
+Time for building model:         25 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 29     max edges/level: 96
+mean edges/node:  1.274  mean count/edge: 173
+
+Window=1 Iteration=5
+Time for building model:         35 seconds
+Time for sampling (singles):     6 seconds
+DAG statistics
+mean edges/level: 30     max edges/level: 92
+mean edges/node:  1.243  mean count/edge: 167
+
+Window=1 Iteration=7
+Time for building model:         20 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 30     max edges/level: 88
+mean edges/node:  1.292  mean count/edge: 167
+
+Window=1 Iteration=4
+Time for building model:         24 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 31     max edges/level: 104
+mean edges/node:  1.254  mean count/edge: 162
+
+Window=1 Iteration=4
+Time for building model:         25 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 30     max edges/level: 82
+mean edges/node:  1.272  mean count/edge: 167
+
+Window=1 Iteration=8
+Time for building model:         20 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 29     max edges/level: 80
+mean edges/node:  1.295  mean count/edge: 173
+
+Window=1 Iteration=5
+Time for building model:         25 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 31     max edges/level: 102
+mean edges/node:  1.253  mean count/edge: 162
+
+Window=1 Iteration=5
+Time for building model:         25 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 29     max edges/level: 90
+mean edges/node:  1.274  mean count/edge: 173
+
+Window=1 Iteration=9
+Time for building model:         21 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 30     max edges/level: 86
+mean edges/node:  1.291  mean count/edge: 167
+
+Window=1 Iteration=6
+Time for building model:         35 seconds
+Time for sampling (singles):     8 seconds
+DAG statistics
+mean edges/level: 29     max edges/level: 83
+mean edges/node:  1.245  mean count/edge: 173
+
+Window=1 Iteration=6
+Time for building model:         27 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 31     max edges/level: 110
+mean edges/node:  1.253  mean count/edge: 162
+
+Window=1 Iteration=10
+Time for building model:         21 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 29     max edges/level: 81
+mean edges/node:  1.296  mean count/edge: 173
+
+Number of markers:               14669
+Total time for building model: 3 minutes 24 seconds
+Total time for sampling:       1 second
+Total run time:                8 minutes 11 seconds
+
+End time: 08:05 PM EDT on 19 Apr 2024
+beagle.27Jul16.86a.jar (version 4.1) finished
+[mpileup] 1 samples in 1 input files
+(mpileup) Max depth is above 1M. Potential memory hog!
+
+Window=1 Iteration=6
+Time for building model:         26 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 30     max edges/level: 85
+mean edges/node:  1.271  mean count/edge: 167
+
+Window 1 [ chr13:19255362-115090019 ]
+reference markers:    7758
+target markers:       7758
+
+Starting burn-in iterations
+Lines   total/split/realigned/skipped:	30138658/274766/21031/0
+beagle.27Jul16.86a.jar (version 4.1)
+Copyright (C) 2014-2015 Brian L. Browning
+Enter "java -jar beagle.27Jul16.86a.jar" for a summary of command line arguments.
+Start time: 08:05 PM EDT on 19 Apr 2024
+
+Command line: java -Xmx18204m -jar beagle.jar
+  gl=/home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/iisa_3-results/germline/chr1.gl.vcf.gz
+  ref=/home/lchanem1/data-abattle4/lakshmi/GRCh37_renamed/ALL.chr1.phase3_shapeit2_mvncall_integrated_v5b.20130502.genotypes_rename.vcf.gz
+  chrom=chr1
+  out=/home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/iisa_3-results/germline/chr1.gp
+  impute=false
+  modelscale=2
+  nthreads=24
+  gprobs=true
+  niterations=0
+
+No genetic map is specified: using 1 cM = 1 Mb
+
+Window=1 Iteration=1
+Time for building model:         10 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 26     max edges/level: 78
+mean edges/node:  1.311  mean count/edge: 193
+
+Window=1 Iteration=7
+Time for building model:         27 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 31     max edges/level: 110
+mean edges/node:  1.253  mean count/edge: 162
+
+Window=1 Iteration=7
+Time for building model:         34 seconds
+Time for sampling (singles):     8 seconds
+DAG statistics
+mean edges/level: 30     max edges/level: 92
+mean edges/node:  1.244  mean count/edge: 167
+
+Window=1 Iteration=2
+Time for building model:         10 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 26     max edges/level: 79
+mean edges/node:  1.288  mean count/edge: 193
+
+Window=1 Iteration=7
+Time for building model:         23 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 29     max edges/level: 88
+mean edges/node:  1.273  mean count/edge: 173
+
+reference samples:    2504
+target samples:          1
+
+Window=1 Iteration=3
+Time for building model:         10 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 26     max edges/level: 75
+mean edges/node:  1.290  mean count/edge: 193
+
+Window=1 Iteration=4
+Time for building model:         10 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 26     max edges/level: 81
+mean edges/node:  1.291  mean count/edge: 193
+
+Window=1 Iteration=8
+Time for building model:         25 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 31     max edges/level: 109
+mean edges/node:  1.255  mean count/edge: 162
+
+Window=1 Iteration=8
+Time for building model:         25 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 30     max edges/level: 94
+mean edges/node:  1.271  mean count/edge: 167
+
+Window=1 Iteration=5
+Time for building model:         10 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 26     max edges/level: 73
+mean edges/node:  1.291  mean count/edge: 193
+
+Window=1 Iteration=8
+Time for building model:         34 seconds
+Time for sampling (singles):     8 seconds
+DAG statistics
+mean edges/level: 29     max edges/level: 81
+mean edges/node:  1.246  mean count/edge: 173
+
+Window=1 Iteration=6
+Time for building model:         9 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 26     max edges/level: 77
+mean edges/node:  1.287  mean count/edge: 193
+
+Window=1 Iteration=9
+Time for building model:         24 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 31     max edges/level: 104
+mean edges/node:  1.254  mean count/edge: 162
+
+Window=1 Iteration=7
+Time for building model:         10 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 26     max edges/level: 76
+mean edges/node:  1.291  mean count/edge: 193
+
+Window=1 Iteration=9
+Time for building model:         24 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 29     max edges/level: 89
+mean edges/node:  1.274  mean count/edge: 173
+
+Window=1 Iteration=8
+Time for building model:         10 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 26     max edges/level: 79
+mean edges/node:  1.289  mean count/edge: 193
+
+Window=1 Iteration=10
+Time for building model:         23 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 30     max edges/level: 105
+mean edges/node:  1.255  mean count/edge: 167
+
+Number of markers:               14915
+Total time for building model: 4 minutes 16 seconds
+Total time for sampling:       1 second
+Total run time:                9 minutes 34 seconds
+
+End time: 08:07 PM EDT on 19 Apr 2024
+beagle.27Jul16.86a.jar (version 4.1) finished
+[mpileup] 1 samples in 1 input files
+(mpileup) Max depth is above 1M. Potential memory hog!
+
+Window=1 Iteration=9
+Time for building model:         10 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 26     max edges/level: 77
+mean edges/node:  1.292  mean count/edge: 193
+
+Window=1 Iteration=10
+Time for building model:         26 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 30     max edges/level: 81
+mean edges/node:  1.271  mean count/edge: 167
+
+Number of markers:               18503
+Total time for building model: 4 minutes 14 seconds
+Total time for sampling:       1 second
+Total run time:                9 minutes 59 seconds
+
+End time: 08:07 PM EDT on 19 Apr 2024
+beagle.27Jul16.86a.jar (version 4.1) finished
+[mpileup] 1 samples in 1 input files
+(mpileup) Max depth is above 1M. Potential memory hog!
+
+Window=1 Iteration=10
+Time for building model:         11 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 26     max edges/level: 81
+mean edges/node:  1.289  mean count/edge: 193
+
+Number of markers:                7758
+Total time for building model: 1 minute 41 seconds
+Total time for sampling:       1 second
+Total run time:                4 minutes 23 seconds
+
+End time: 08:07 PM EDT on 19 Apr 2024
+beagle.27Jul16.86a.jar (version 4.1) finished
+[mpileup] 1 samples in 1 input files
+(mpileup) Max depth is above 1M. Potential memory hog!
+
+Window=1 Iteration=9
+Time for building model:         35 seconds
+Time for sampling (singles):     8 seconds
+DAG statistics
+mean edges/level: 30     max edges/level: 88
+mean edges/node:  1.243  mean count/edge: 167
+Lines   total/split/realigned/skipped:	11111687/90994/7630/0
+beagle.27Jul16.86a.jar (version 4.1)
+Copyright (C) 2014-2015 Brian L. Browning
+Enter "java -jar beagle.27Jul16.86a.jar" for a summary of command line arguments.
+Start time: 08:07 PM EDT on 19 Apr 2024
+
+Command line: java -Xmx18204m -jar beagle.jar
+  gl=/home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/iisa_3-results/germline/chr14.gl.vcf.gz
+  ref=/home/lchanem1/data-abattle4/lakshmi/GRCh37_renamed/ALL.chr14.phase3_shapeit2_mvncall_integrated_v5b.20130502.genotypes_rename.vcf.gz
+  chrom=chr14
+  out=/home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/iisa_3-results/germline/chr14.gp
+  impute=false
+  modelscale=2
+  nthreads=24
+  gprobs=true
+  niterations=0
+
+No genetic map is specified: using 1 cM = 1 Mb
+
+reference samples:    2504
+target samples:          1
+
+Window=1 Iteration=10
+Time for building model:         32 seconds
+Time for sampling (singles):     8 seconds
+DAG statistics
+mean edges/level: 29     max edges/level: 93
+mean edges/node:  1.246  mean count/edge: 173
+
+Number of markers:               23898
+Total time for building model: 5 minutes 48 seconds
+Total time for sampling:       1 minute 9 seconds
+Total run time:                14 minutes 8 seconds
+
+End time: 08:07 PM EDT on 19 Apr 2024
+beagle.27Jul16.86a.jar (version 4.1) finished
+beagle.27Jul16.86a.jar (version 4.1)
+Copyright (C) 2014-2015 Brian L. Browning
+Enter "java -jar beagle.27Jul16.86a.jar" for a summary of command line arguments.
+Start time: 08:07 PM EDT on 19 Apr 2024
+
+Command line: java -Xmx18204m -jar beagle.jar
+  gt=/home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/iisa_3-results/germline/chr2.germline.vcf
+  ref=/home/lchanem1/data-abattle4/lakshmi/GRCh37_renamed/ALL.chr2.phase3_shapeit2_mvncall_integrated_v5b.20130502.genotypes_rename.vcf.gz
+  chrom=chr2
+  out=/home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/iisa_3-results/germline/chr2.phased
+  impute=false
+  modelscale=2
+  nthreads=24
+  gprobs=true
+  niterations=0
+
+No genetic map is specified: using 1 cM = 1 Mb
+
+reference samples:    2504
+target samples:          1
+
+Window 1 [ chr14:20237246-106444709 ]
+reference markers:    9715
+target markers:       9715
+
+Starting burn-in iterations
+
+Window=1 Iteration=1
+Time for building model:         13 seconds
+Time for sampling (singles):     2 seconds
+DAG statistics
+mean edges/level: 28     max edges/level: 83
+mean edges/node:  1.272  mean count/edge: 179
+
+Window=1 Iteration=2
+Time for building model:         13 seconds
+Time for sampling (singles):     2 seconds
+DAG statistics
+mean edges/level: 28     max edges/level: 83
+mean edges/node:  1.256  mean count/edge: 179
+
+Window=1 Iteration=3
+Time for building model:         11 seconds
+Time for sampling (singles):     2 seconds
+DAG statistics
+mean edges/level: 28     max edges/level: 91
+mean edges/node:  1.253  mean count/edge: 179
+Lines   total/split/realigned/skipped:	11347509/87196/7588/0
+beagle.27Jul16.86a.jar (version 4.1)
+Copyright (C) 2014-2015 Brian L. Browning
+Enter "java -jar beagle.27Jul16.86a.jar" for a summary of command line arguments.
+Start time: 08:11 PM EDT on 19 Apr 2024
+
+Command line: java -Xmx18204m -jar beagle.jar
+  gl=/home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/iisa_3-results/germline/chr15.gl.vcf.gz
+  ref=/home/lchanem1/data-abattle4/lakshmi/GRCh37_renamed/ALL.chr15.phase3_shapeit2_mvncall_integrated_v5b.20130502.genotypes_rename.vcf.gz
+  chrom=chr15
+  out=/home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/iisa_3-results/germline/chr15.gp
+  impute=false
+  modelscale=2
+  nthreads=24
+  gprobs=true
+  niterations=0
+
+No genetic map is specified: using 1 cM = 1 Mb
+
+Window=1 Iteration=4
+Time for building model:         12 seconds
+Time for sampling (singles):     2 seconds
+DAG statistics
+mean edges/level: 27     max edges/level: 76
+mean edges/node:  1.258  mean count/edge: 186
+
+Window=1 Iteration=5
+Time for building model:         13 seconds
+Time for sampling (singles):     2 seconds
+DAG statistics
+mean edges/level: 28     max edges/level: 95
+mean edges/node:  1.253  mean count/edge: 179
+
+reference samples:    2504
+target samples:          1
+
+Window=1 Iteration=6
+Time for building model:         13 seconds
+Time for sampling (singles):     3 seconds
+DAG statistics
+mean edges/level: 28     max edges/level: 77
+mean edges/node:  1.258  mean count/edge: 179
+
+Window 1 [ chr1:15211-249201472 ]
+reference markers:   26213
+target markers:      26213
+
+Starting burn-in iterations
+
+Window=1 Iteration=7
+Time for building model:         14 seconds
+Time for sampling (singles):     3 seconds
+DAG statistics
+mean edges/level: 28     max edges/level: 91
+mean edges/node:  1.252  mean count/edge: 179
+
+Window=1 Iteration=8
+Time for building model:         14 seconds
+Time for sampling (singles):     3 seconds
+DAG statistics
+mean edges/level: 27     max edges/level: 80
+mean edges/node:  1.256  mean count/edge: 186
+Lines   total/split/realigned/skipped:	8095738/42641/5016/0
+beagle.27Jul16.86a.jar (version 4.1)
+Copyright (C) 2014-2015 Brian L. Browning
+Enter "java -jar beagle.27Jul16.86a.jar" for a summary of command line arguments.
+Start time: 08:12 PM EDT on 19 Apr 2024
+
+Command line: java -Xmx18204m -jar beagle.jar
+  gl=/home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/iisa_3-results/germline/chr18.gl.vcf.gz
+  ref=/home/lchanem1/data-abattle4/lakshmi/GRCh37_renamed/ALL.chr18.phase3_shapeit2_mvncall_integrated_v5b.20130502.genotypes_rename.vcf.gz
+  chrom=chr18
+  out=/home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/iisa_3-results/germline/chr18.gp
+  impute=false
+  modelscale=2
+  nthreads=24
+  gprobs=true
+  niterations=0
+
+No genetic map is specified: using 1 cM = 1 Mb
+
+Window=1 Iteration=9
+Time for building model:         12 seconds
+Time for sampling (singles):     3 seconds
+DAG statistics
+mean edges/level: 28     max edges/level: 86
+mean edges/node:  1.252  mean count/edge: 179
+
+reference samples:    2504
+target samples:          1
+Lines   total/split/realigned/skipped:	16316545/165201/10204/0
+beagle.27Jul16.86a.jar (version 4.1)
+Copyright (C) 2014-2015 Brian L. Browning
+Enter "java -jar beagle.27Jul16.86a.jar" for a summary of command line arguments.
+Start time: 08:12 PM EDT on 19 Apr 2024
+
+Command line: java -Xmx18204m -jar beagle.jar
+  gl=/home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/iisa_3-results/germline/chr11.gl.vcf.gz
+  ref=/home/lchanem1/data-abattle4/lakshmi/GRCh37_renamed/ALL.chr11.phase3_shapeit2_mvncall_integrated_v5b.20130502.genotypes_rename.vcf.gz
+  chrom=chr11
+  out=/home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/iisa_3-results/germline/chr11.gp
+  impute=false
+  modelscale=2
+  nthreads=24
+  gprobs=true
+  niterations=0
+
+No genetic map is specified: using 1 cM = 1 Mb
+
+Window=1 Iteration=1
+Time for building model:         39 seconds
+Time for sampling (singles):     5 seconds
+DAG statistics
+mean edges/level: 27     max edges/level: 79
+mean edges/node:  1.266  mean count/edge: 186
+
+Window=1 Iteration=10
+Time for building model:         12 seconds
+Time for sampling (singles):     3 seconds
+DAG statistics
+mean edges/level: 28     max edges/level: 85
+mean edges/node:  1.256  mean count/edge: 179
+
+Number of markers:                9715
+Total time for building model: 2 minutes 7 seconds
+Total time for sampling:       26 seconds
+Total run time:                5 minutes 14 seconds
+
+End time: 08:12 PM EDT on 19 Apr 2024
+beagle.27Jul16.86a.jar (version 4.1) finished
+beagle.27Jul16.86a.jar (version 4.1)
+Copyright (C) 2014-2015 Brian L. Browning
+Enter "java -jar beagle.27Jul16.86a.jar" for a summary of command line arguments.
+Start time: 08:12 PM EDT on 19 Apr 2024
+
+Command line: java -Xmx18204m -jar beagle.jar
+  gt=/home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/iisa_3-results/germline/chr14.germline.vcf
+  ref=/home/lchanem1/data-abattle4/lakshmi/GRCh37_renamed/ALL.chr14.phase3_shapeit2_mvncall_integrated_v5b.20130502.genotypes_rename.vcf.gz
+  chrom=chr14
+  out=/home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/iisa_3-results/germline/chr14.phased
+  impute=false
+  modelscale=2
+  nthreads=24
+  gprobs=true
+  niterations=0
+
+No genetic map is specified: using 1 cM = 1 Mb
+
+reference samples:    2504
+target samples:          1
+
+reference samples:    2504
+target samples:          1
+
+Window=1 Iteration=2
+Time for building model:         37 seconds
+Time for sampling (singles):     5 seconds
+DAG statistics
+mean edges/level: 27     max edges/level: 81
+mean edges/node:  1.247  mean count/edge: 186
+
+Window 1 [ chr15:20415365-102515241 ]
+reference markers:   10012
+target markers:      10012
+
+Starting burn-in iterations
+
+Window=1 Iteration=1
+Time for building model:         20 seconds
+Time for sampling (singles):     3 seconds
+DAG statistics
+mean edges/level: 30     max edges/level: 85
+mean edges/node:  1.277  mean count/edge: 167
+
+Window=1 Iteration=3
+Time for building model:         39 seconds
+Time for sampling (singles):     5 seconds
+DAG statistics
+mean edges/level: 27     max edges/level: 84
+mean edges/node:  1.244  mean count/edge: 186
+
+Window=1 Iteration=2
+Time for building model:         18 seconds
+Time for sampling (singles):     3 seconds
+DAG statistics
+mean edges/level: 29     max edges/level: 93
+mean edges/node:  1.258  mean count/edge: 173
+
+Window=1 Iteration=3
+Time for building model:         16 seconds
+Time for sampling (singles):     2 seconds
+DAG statistics
+mean edges/level: 30     max edges/level: 90
+mean edges/node:  1.257  mean count/edge: 167
+
+Window=1 Iteration=4
+Time for building model:         39 seconds
+Time for sampling (singles):     5 seconds
+DAG statistics
+mean edges/level: 27     max edges/level: 77
+mean edges/node:  1.246  mean count/edge: 186
+
+Window 1 [ chr18:108059-77981824 ]
+reference markers:    6970
+target markers:       6970
+
+Starting burn-in iterations
+
+Window=1 Iteration=1
+Time for building model:         9 seconds
+Time for sampling (singles):     1 second
+DAG statistics
+mean edges/level: 24     max edges/level: 84
+mean edges/node:  1.341  mean count/edge: 209
+
+Window=1 Iteration=4
+Time for building model:         17 seconds
+Time for sampling (singles):     2 seconds
+DAG statistics
+mean edges/level: 29     max edges/level: 82
+mean edges/node:  1.259  mean count/edge: 173
+
+Window=1 Iteration=2
+Time for building model:         9 seconds
+Time for sampling (singles):     1 second
+DAG statistics
+mean edges/level: 24     max edges/level: 82
+mean edges/node:  1.315  mean count/edge: 209
+
+Window=1 Iteration=3
+Time for building model:         9 seconds
+Time for sampling (singles):     1 second
+DAG statistics
+mean edges/level: 24     max edges/level: 76
+mean edges/node:  1.314  mean count/edge: 209
+
+Window=1 Iteration=5
+Time for building model:         17 seconds
+Time for sampling (singles):     2 seconds
+DAG statistics
+mean edges/level: 29     max edges/level: 83
+mean edges/node:  1.261  mean count/edge: 173
+
+Window 1 [ chr14:20237246-106444709 ]
+reference markers:    8109
+target markers:       8109
+
+Starting burn-in iterations
+
+Window=1 Iteration=4
+Time for building model:         9 seconds
+Time for sampling (singles):     1 second
+DAG statistics
+mean edges/level: 24     max edges/level: 71
+mean edges/node:  1.316  mean count/edge: 209
+
+Window=1 Iteration=5
+Time for building model:         38 seconds
+Time for sampling (singles):     5 seconds
+DAG statistics
+mean edges/level: 26     max edges/level: 86
+mean edges/node:  1.245  mean count/edge: 193
+
+Window=1 Iteration=1
+Time for building model:         11 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 29     max edges/level: 93
+mean edges/node:  1.301  mean count/edge: 173
+
+Window=1 Iteration=5
+Time for building model:         9 seconds
+Time for sampling (singles):     1 second
+DAG statistics
+mean edges/level: 24     max edges/level: 73
+mean edges/node:  1.313  mean count/edge: 209
+
+Window=1 Iteration=6
+Time for building model:         17 seconds
+Time for sampling (singles):     4 seconds
+DAG statistics
+mean edges/level: 29     max edges/level: 86
+mean edges/node:  1.259  mean count/edge: 173
+
+Window=1 Iteration=2
+Time for building model:         11 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 28     max edges/level: 86
+mean edges/node:  1.289  mean count/edge: 179
+
+Window 1 [ chr2:217826-243166524 ]
+reference markers:   20783
+target markers:      20783
+
+Starting burn-in iterations
+
+Window=1 Iteration=6
+Time for building model:         8 seconds
+Time for sampling (singles):     1 second
+DAG statistics
+mean edges/level: 24     max edges/level: 79
+mean edges/node:  1.316  mean count/edge: 209
+
+Window=1 Iteration=3
+Time for building model:         11 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 28     max edges/level: 88
+mean edges/node:  1.283  mean count/edge: 179
+
+Window=1 Iteration=7
+Time for building model:         8 seconds
+Time for sampling (singles):     2 seconds
+DAG statistics
+mean edges/level: 24     max edges/level: 72
+mean edges/node:  1.314  mean count/edge: 209
+
+Window=1 Iteration=7
+Time for building model:         16 seconds
+Time for sampling (singles):     3 seconds
+DAG statistics
+mean edges/level: 29     max edges/level: 82
+mean edges/node:  1.259  mean count/edge: 173
+Lines   total/split/realigned/skipped:	10128585/114490/6665/0
+beagle.27Jul16.86a.jar (version 4.1)
+Copyright (C) 2014-2015 Brian L. Browning
+Enter "java -jar beagle.27Jul16.86a.jar" for a summary of command line arguments.
+Start time: 08:16 PM EDT on 19 Apr 2024
+
+Command line: java -Xmx18204m -jar beagle.jar
+  gl=/home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/iisa_3-results/germline/chr16.gl.vcf.gz
+  ref=/home/lchanem1/data-abattle4/lakshmi/GRCh37_renamed/ALL.chr16.phase3_shapeit2_mvncall_integrated_v5b.20130502.genotypes_rename.vcf.gz
+  chrom=chr16
+  out=/home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/iisa_3-results/germline/chr16.gp
+  impute=false
+  modelscale=2
+  nthreads=24
+  gprobs=true
+  niterations=0
+
+No genetic map is specified: using 1 cM = 1 Mb
+
+Window=1 Iteration=4
+Time for building model:         11 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 28     max edges/level: 80
+mean edges/node:  1.286  mean count/edge: 179
+
+Window=1 Iteration=8
+Time for building model:         8 seconds
+Time for sampling (singles):     1 second
+DAG statistics
+mean edges/level: 24     max edges/level: 77
+mean edges/node:  1.314  mean count/edge: 209
+
+reference samples:    2504
+target samples:          1
+
+Window=1 Iteration=9
+Time for building model:         8 seconds
+Time for sampling (singles):     1 second
+DAG statistics
+mean edges/level: 24     max edges/level: 83
+mean edges/node:  1.312  mean count/edge: 209
+
+Window=1 Iteration=5
+Time for building model:         11 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 28     max edges/level: 91
+mean edges/node:  1.283  mean count/edge: 179
+
+Window=1 Iteration=6
+Time for building model:         41 seconds
+Time for sampling (singles):     7 seconds
+DAG statistics
+mean edges/level: 27     max edges/level: 80
+mean edges/node:  1.246  mean count/edge: 186
+
+Window=1 Iteration=8
+Time for building model:         17 seconds
+Time for sampling (singles):     3 seconds
+DAG statistics
+mean edges/level: 29     max edges/level: 90
+mean edges/node:  1.258  mean count/edge: 173
+
+Window=1 Iteration=1
+Time for building model:         34 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 30     max edges/level: 95
+mean edges/node:  1.287  mean count/edge: 167
+
+Window=1 Iteration=10
+Time for building model:         9 seconds
+Time for sampling (singles):     1 second
+DAG statistics
+mean edges/level: 24     max edges/level: 76
+mean edges/node:  1.314  mean count/edge: 209
+
+Number of markers:                6970
+Total time for building model: 1 minute 26 seconds
+Total time for sampling:       13 seconds
+Total run time:                4 minutes 3 seconds
+
+End time: 08:16 PM EDT on 19 Apr 2024
+beagle.27Jul16.86a.jar (version 4.1) finished
+beagle.27Jul16.86a.jar (version 4.1)
+Copyright (C) 2014-2015 Brian L. Browning
+Enter "java -jar beagle.27Jul16.86a.jar" for a summary of command line arguments.
+Start time: 08:16 PM EDT on 19 Apr 2024
+
+Command line: java -Xmx18204m -jar beagle.jar
+  gt=/home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/iisa_3-results/germline/chr18.germline.vcf
+  ref=/home/lchanem1/data-abattle4/lakshmi/GRCh37_renamed/ALL.chr18.phase3_shapeit2_mvncall_integrated_v5b.20130502.genotypes_rename.vcf.gz
+  chrom=chr18
+  out=/home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/iisa_3-results/germline/chr18.phased
+  impute=false
+  modelscale=2
+  nthreads=24
+  gprobs=true
+  niterations=0
+
+No genetic map is specified: using 1 cM = 1 Mb
+
+Window=1 Iteration=6
+Time for building model:         12 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 28     max edges/level: 79
+mean edges/node:  1.290  mean count/edge: 179
+
+reference samples:    2504
+target samples:          1
+
+Window 1 [ chr11:201027-134851240 ]
+reference markers:   16422
+target markers:      16422
+
+Starting burn-in iterations
+
+Window=1 Iteration=7
+Time for building model:         10 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 28     max edges/level: 87
+mean edges/node:  1.283  mean count/edge: 179
+
+Window=1 Iteration=9
+Time for building model:         16 seconds
+Time for sampling (singles):     4 seconds
+DAG statistics
+mean edges/level: 29     max edges/level: 88
+mean edges/node:  1.258  mean count/edge: 173
+
+Window=1 Iteration=8
+Time for building model:         10 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 28     max edges/level: 80
+mean edges/node:  1.289  mean count/edge: 179
+
+Window=1 Iteration=2
+Time for building model:         32 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 29     max edges/level: 83
+mean edges/node:  1.272  mean count/edge: 173
+
+Window=1 Iteration=10
+Time for building model:         15 seconds
+Time for sampling (singles):     3 seconds
+DAG statistics
+mean edges/level: 29     max edges/level: 83
+mean edges/node:  1.259  mean count/edge: 173
+
+Number of markers:               10012
+Total time for building model: 2 minutes 49 seconds
+Total time for sampling:       30 seconds
+Total run time:                5 minutes 52 seconds
+
+End time: 08:16 PM EDT on 19 Apr 2024
+beagle.27Jul16.86a.jar (version 4.1) finished
+beagle.27Jul16.86a.jar (version 4.1)
+Copyright (C) 2014-2015 Brian L. Browning
+Enter "java -jar beagle.27Jul16.86a.jar" for a summary of command line arguments.
+Start time: 08:16 PM EDT on 19 Apr 2024
+
+Command line: java -Xmx18204m -jar beagle.jar
+  gt=/home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/iisa_3-results/germline/chr15.germline.vcf
+  ref=/home/lchanem1/data-abattle4/lakshmi/GRCh37_renamed/ALL.chr15.phase3_shapeit2_mvncall_integrated_v5b.20130502.genotypes_rename.vcf.gz
+  chrom=chr15
+  out=/home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/iisa_3-results/germline/chr15.phased
+  impute=false
+  modelscale=2
+  nthreads=24
+  gprobs=true
+  niterations=0
+
+No genetic map is specified: using 1 cM = 1 Mb
+
+Window=1 Iteration=9
+Time for building model:         9 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 28     max edges/level: 91
+mean edges/node:  1.282  mean count/edge: 179
+
+Window=1 Iteration=7
+Time for building model:         40 seconds
+Time for sampling (singles):     7 seconds
+DAG statistics
+mean edges/level: 27     max edges/level: 84
+mean edges/node:  1.245  mean count/edge: 186
+
+Window=1 Iteration=10
+Time for building model:         10 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 28     max edges/level: 82
+mean edges/node:  1.286  mean count/edge: 179
+
+Number of markers:                8109
+Total time for building model: 1 minute 46 seconds
+Total time for sampling:       1 second
+Total run time:                4 minutes 27 seconds
+
+End time: 08:17 PM EDT on 19 Apr 2024
+beagle.27Jul16.86a.jar (version 4.1) finished
+[mpileup] 1 samples in 1 input files
+(mpileup) Max depth is above 1M. Potential memory hog!
+
+Window=1 Iteration=1
+Time for building model:         28 seconds
+Time for sampling (singles):     4 seconds
+DAG statistics
+mean edges/level: 30     max edges/level: 84
+mean edges/node:  1.257  mean count/edge: 167
+
+Window=1 Iteration=3
+Time for building model:         29 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 30     max edges/level: 92
+mean edges/node:  1.269  mean count/edge: 167
+
+reference samples:    2504
+target samples:          1
+
+Window=1 Iteration=2
+Time for building model:         27 seconds
+Time for sampling (singles):     4 seconds
+DAG statistics
+mean edges/level: 29     max edges/level: 89
+mean edges/node:  1.238  mean count/edge: 173
+
+Window=1 Iteration=4
+Time for building model:         29 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 29     max edges/level: 84
+mean edges/node:  1.270  mean count/edge: 173
+
+Window=1 Iteration=8
+Time for building model:         38 seconds
+Time for sampling (singles):     7 seconds
+DAG statistics
+mean edges/level: 26     max edges/level: 81
+mean edges/node:  1.247  mean count/edge: 193
+
+Window=1 Iteration=3
+Time for building model:         28 seconds
+Time for sampling (singles):     4 seconds
+DAG statistics
+mean edges/level: 29     max edges/level: 86
+mean edges/node:  1.238  mean count/edge: 173
+
+Window=1 Iteration=5
+Time for building model:         34 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 30     max edges/level: 89
+mean edges/node:  1.269  mean count/edge: 167
+
+Window 1 [ chr18:108059-77981824 ]
+reference markers:    6368
+target markers:       6368
+
+Starting burn-in iterations
+
+Window=1 Iteration=9
+Time for building model:         41 seconds
+Time for sampling (singles):     7 seconds
+DAG statistics
+mean edges/level: 27     max edges/level: 81
+mean edges/node:  1.244  mean count/edge: 186
+
+Window=1 Iteration=1
+Time for building model:         7 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 24     max edges/level: 74
+mean edges/node:  1.357  mean count/edge: 209
+
+Window=1 Iteration=4
+Time for building model:         29 seconds
+Time for sampling (singles):     4 seconds
+DAG statistics
+mean edges/level: 29     max edges/level: 86
+mean edges/node:  1.237  mean count/edge: 173
+
+Window 1 [ chr16:74763-90141355 ]
+reference markers:   10596
+target markers:      10596
+
+Starting burn-in iterations
+
+Window=1 Iteration=2
+Time for building model:         7 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 24     max edges/level: 77
+mean edges/node:  1.335  mean count/edge: 209
+
+Window=1 Iteration=6
+Time for building model:         31 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 29     max edges/level: 79
+mean edges/node:  1.271  mean count/edge: 173
+
+Window=1 Iteration=3
+Time for building model:         7 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 24     max edges/level: 81
+mean edges/node:  1.336  mean count/edge: 209
+
+Window=1 Iteration=4
+Time for building model:         7 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 24     max edges/level: 76
+mean edges/node:  1.337  mean count/edge: 209
+
+Window=1 Iteration=1
+Time for building model:         17 seconds
+Time for sampling (singles):     2 seconds
+DAG statistics
+mean edges/level: 28     max edges/level: 87
+mean edges/node:  1.285  mean count/edge: 179
+
+Window=1 Iteration=5
+Time for building model:         6 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 24     max edges/level: 81
+mean edges/node:  1.334  mean count/edge: 209
+
+Window=1 Iteration=6
+Time for building model:         6 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 24     max edges/level: 74
+mean edges/node:  1.337  mean count/edge: 209
+
+Window=1 Iteration=5
+Time for building model:         28 seconds
+Time for sampling (singles):     4 seconds
+DAG statistics
+mean edges/level: 29     max edges/level: 89
+mean edges/node:  1.238  mean count/edge: 173
+
+Window=1 Iteration=7
+Time for building model:         7 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 24     max edges/level: 70
+mean edges/node:  1.338  mean count/edge: 209
+
+Window=1 Iteration=10
+Time for building model:         38 seconds
+Time for sampling (singles):     7 seconds
+DAG statistics
+mean edges/level: 26     max edges/level: 79
+mean edges/node:  1.247  mean count/edge: 193
+
+Number of markers:               26213
+Total time for building model: 6 minutes 30 seconds
+Total time for sampling:       1 minute 2 seconds
+Total run time:                13 minutes 41 seconds
+
+End time: 08:19 PM EDT on 19 Apr 2024
+beagle.27Jul16.86a.jar (version 4.1) finished
+beagle.27Jul16.86a.jar (version 4.1)
+Copyright (C) 2014-2015 Brian L. Browning
+Enter "java -jar beagle.27Jul16.86a.jar" for a summary of command line arguments.
+Start time: 08:19 PM EDT on 19 Apr 2024
+
+Command line: java -Xmx18204m -jar beagle.jar
+  gt=/home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/iisa_3-results/germline/chr1.germline.vcf
+  ref=/home/lchanem1/data-abattle4/lakshmi/GRCh37_renamed/ALL.chr1.phase3_shapeit2_mvncall_integrated_v5b.20130502.genotypes_rename.vcf.gz
+  chrom=chr1
+  out=/home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/iisa_3-results/germline/chr1.phased
+  impute=false
+  modelscale=2
+  nthreads=24
+  gprobs=true
+  niterations=0
+
+No genetic map is specified: using 1 cM = 1 Mb
+
+Window=1 Iteration=2
+Time for building model:         16 seconds
+Time for sampling (singles):     2 seconds
+DAG statistics
+mean edges/level: 28     max edges/level: 95
+mean edges/node:  1.276  mean count/edge: 179
+
+Window=1 Iteration=7
+Time for building model:         31 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 30     max edges/level: 94
+mean edges/node:  1.270  mean count/edge: 167
+
+Window 1 [ chr15:20415365-102515241 ]
+reference markers:    8472
+target markers:       8472
+
+Starting burn-in iterations
+
+Window=1 Iteration=8
+Time for building model:         7 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 24     max edges/level: 71
+mean edges/node:  1.339  mean count/edge: 209
+
+Window=1 Iteration=9
+Time for building model:         7 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 24     max edges/level: 76
+mean edges/node:  1.335  mean count/edge: 209
+
+Window=1 Iteration=1
+Time for building model:         15 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 30     max edges/level: 83
+mean edges/node:  1.310  mean count/edge: 167
+
+Window=1 Iteration=10
+Time for building model:         7 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 24     max edges/level: 75
+mean edges/node:  1.338  mean count/edge: 209
+
+Number of markers:                6368
+Total time for building model: 1 minute 8 seconds
+Total time for sampling:       1 second
+Total run time:                3 minutes 17 seconds
+
+End time: 08:19 PM EDT on 19 Apr 2024
+beagle.27Jul16.86a.jar (version 4.1) finished
+[mpileup] 1 samples in 1 input files
+(mpileup) Max depth is above 1M. Potential memory hog!
+
+Window=1 Iteration=3
+Time for building model:         18 seconds
+Time for sampling (singles):     2 seconds
+DAG statistics
+mean edges/level: 28     max edges/level: 90
+mean edges/node:  1.272  mean count/edge: 179
+
+reference samples:    2504
+target samples:          1
+
+Window=1 Iteration=6
+Time for building model:         27 seconds
+Time for sampling (singles):     6 seconds
+DAG statistics
+mean edges/level: 29     max edges/level: 88
+mean edges/node:  1.237  mean count/edge: 173
+
+Window=1 Iteration=8
+Time for building model:         30 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 29     max edges/level: 85
+mean edges/node:  1.271  mean count/edge: 173
+
+Window=1 Iteration=2
+Time for building model:         16 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 29     max edges/level: 87
+mean edges/node:  1.296  mean count/edge: 173
+
+Window=1 Iteration=4
+Time for building model:         16 seconds
+Time for sampling (singles):     2 seconds
+DAG statistics
+mean edges/level: 28     max edges/level: 91
+mean edges/node:  1.272  mean count/edge: 179
+
+Window=1 Iteration=3
+Time for building model:         15 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 29     max edges/level: 86
+mean edges/node:  1.298  mean count/edge: 173
+
+Window=1 Iteration=5
+Time for building model:         17 seconds
+Time for sampling (singles):     2 seconds
+DAG statistics
+mean edges/level: 28     max edges/level: 92
+mean edges/node:  1.272  mean count/edge: 179
+
+Window=1 Iteration=7
+Time for building model:         29 seconds
+Time for sampling (singles):     5 seconds
+DAG statistics
+mean edges/level: 29     max edges/level: 85
+mean edges/node:  1.240  mean count/edge: 173
+
+Window=1 Iteration=9
+Time for building model:         31 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 30     max edges/level: 89
+mean edges/node:  1.269  mean count/edge: 167
+
+Window=1 Iteration=4
+Time for building model:         15 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 29     max edges/level: 88
+mean edges/node:  1.295  mean count/edge: 173
+
+Window=1 Iteration=6
+Time for building model:         16 seconds
+Time for sampling (singles):     3 seconds
+DAG statistics
+mean edges/level: 28     max edges/level: 93
+mean edges/node:  1.271  mean count/edge: 179
+
+Window=1 Iteration=5
+Time for building model:         14 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 29     max edges/level: 90
+mean edges/node:  1.296  mean count/edge: 173
+
+Window=1 Iteration=10
+Time for building model:         31 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 29     max edges/level: 81
+mean edges/node:  1.272  mean count/edge: 173
+
+Number of markers:               20783
+Total time for building model: 5 minutes 13 seconds
+Total time for sampling:       1 second
+Total run time:                13 minutes 0 seconds
+
+End time: 08:20 PM EDT on 19 Apr 2024
+beagle.27Jul16.86a.jar (version 4.1) finished
+
+Window=1 Iteration=6
+Time for building model:         14 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 29     max edges/level: 88
+mean edges/node:  1.293  mean count/edge: 173
+[mpileup] 1 samples in 1 input files
+(mpileup) Max depth is above 1M. Potential memory hog!
+
+Window=1 Iteration=8
+Time for building model:         29 seconds
+Time for sampling (singles):     6 seconds
+DAG statistics
+mean edges/level: 29     max edges/level: 86
+mean edges/node:  1.236  mean count/edge: 173
+
+Window=1 Iteration=7
+Time for building model:         15 seconds
+Time for sampling (singles):     3 seconds
+DAG statistics
+mean edges/level: 28     max edges/level: 89
+mean edges/node:  1.271  mean count/edge: 179
+
+Window=1 Iteration=7
+Time for building model:         11 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 29     max edges/level: 88
+mean edges/node:  1.295  mean count/edge: 173
+
+Window=1 Iteration=8
+Time for building model:         14 seconds
+Time for sampling (singles):     3 seconds
+DAG statistics
+mean edges/level: 28     max edges/level: 88
+mean edges/node:  1.272  mean count/edge: 179
+
+Window=1 Iteration=8
+Time for building model:         11 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 29     max edges/level: 85
+mean edges/node:  1.295  mean count/edge: 173
+
+Window=1 Iteration=9
+Time for building model:         22 seconds
+Time for sampling (singles):     5 seconds
+DAG statistics
+mean edges/level: 29     max edges/level: 82
+mean edges/node:  1.239  mean count/edge: 173
+
+Window=1 Iteration=9
+Time for building model:         11 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 30     max edges/level: 90
+mean edges/node:  1.295  mean count/edge: 167
+
+Window=1 Iteration=9
+Time for building model:         15 seconds
+Time for sampling (singles):     3 seconds
+DAG statistics
+mean edges/level: 29     max edges/level: 95
+mean edges/node:  1.270  mean count/edge: 173
+
+Window=1 Iteration=10
+Time for building model:         12 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 29     max edges/level: 87
+mean edges/node:  1.295  mean count/edge: 173
+
+Number of markers:                8472
+Total time for building model: 2 minutes 15 seconds
+Total time for sampling:       1 second
+Total run time:                4 minutes 47 seconds
+
+End time: 08:21 PM EDT on 19 Apr 2024
+beagle.27Jul16.86a.jar (version 4.1) finished
+
+Window=1 Iteration=10
+Time for building model:         24 seconds
+Time for sampling (singles):     6 seconds
+DAG statistics
+mean edges/level: 29     max edges/level: 96
+mean edges/node:  1.236  mean count/edge: 173
+
+Number of markers:               16422
+Total time for building model: 4 minutes 32 seconds
+Total time for sampling:       47 seconds
+Total run time:                9 minutes 22 seconds
+
+End time: 08:21 PM EDT on 19 Apr 2024
+beagle.27Jul16.86a.jar (version 4.1) finished
+beagle.27Jul16.86a.jar (version 4.1)
+Copyright (C) 2014-2015 Brian L. Browning
+Enter "java -jar beagle.27Jul16.86a.jar" for a summary of command line arguments.
+Start time: 08:21 PM EDT on 19 Apr 2024
+
+Command line: java -Xmx18204m -jar beagle.jar
+  gt=/home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/iisa_3-results/germline/chr11.germline.vcf
+  ref=/home/lchanem1/data-abattle4/lakshmi/GRCh37_renamed/ALL.chr11.phase3_shapeit2_mvncall_integrated_v5b.20130502.genotypes_rename.vcf.gz
+  chrom=chr11
+  out=/home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/iisa_3-results/germline/chr11.phased
+  impute=false
+  modelscale=2
+  nthreads=24
+  gprobs=true
+  niterations=0
+
+No genetic map is specified: using 1 cM = 1 Mb
+
+Window=1 Iteration=10
+Time for building model:         16 seconds
+Time for sampling (singles):     3 seconds
+DAG statistics
+mean edges/level: 29     max edges/level: 95
+mean edges/node:  1.270  mean count/edge: 173
+
+Number of markers:               10596
+Total time for building model: 2 minutes 41 seconds
+Total time for sampling:       28 seconds
+Total run time:                5 minutes 54 seconds
+
+End time: 08:21 PM EDT on 19 Apr 2024
+beagle.27Jul16.86a.jar (version 4.1) finished
+beagle.27Jul16.86a.jar (version 4.1)
+Copyright (C) 2014-2015 Brian L. Browning
+Enter "java -jar beagle.27Jul16.86a.jar" for a summary of command line arguments.
+Start time: 08:21 PM EDT on 19 Apr 2024
+
+Command line: java -Xmx18204m -jar beagle.jar
+  gt=/home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/iisa_3-results/germline/chr16.germline.vcf
+  ref=/home/lchanem1/data-abattle4/lakshmi/GRCh37_renamed/ALL.chr16.phase3_shapeit2_mvncall_integrated_v5b.20130502.genotypes_rename.vcf.gz
+  chrom=chr16
+  out=/home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/iisa_3-results/germline/chr16.phased
+  impute=false
+  modelscale=2
+  nthreads=24
+  gprobs=true
+  niterations=0
+
+No genetic map is specified: using 1 cM = 1 Mb
+
+reference samples:    2504
+target samples:          1
+
+reference samples:    2504
+target samples:          1
+Lines   total/split/realigned/skipped:	17152476/158263/11682/0
+beagle.27Jul16.86a.jar (version 4.1)
+Copyright (C) 2014-2015 Brian L. Browning
+Enter "java -jar beagle.27Jul16.86a.jar" for a summary of command line arguments.
+Start time: 08:22 PM EDT on 19 Apr 2024
+
+Command line: java -Xmx18204m -jar beagle.jar
+  gl=/home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/iisa_3-results/germline/chr12.gl.vcf.gz
+  ref=/home/lchanem1/data-abattle4/lakshmi/GRCh37_renamed/ALL.chr12.phase3_shapeit2_mvncall_integrated_v5b.20130502.genotypes_rename.vcf.gz
+  chrom=chr12
+  out=/home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/iisa_3-results/germline/chr12.gp
+  impute=false
+  modelscale=2
+  nthreads=24
+  gprobs=true
+  niterations=0
+
+No genetic map is specified: using 1 cM = 1 Mb
+
+reference samples:    2504
+target samples:          1
+Lines   total/split/realigned/skipped:	6883947/71660/4455/0
+beagle.27Jul16.86a.jar (version 4.1)
+Copyright (C) 2014-2015 Brian L. Browning
+Enter "java -jar beagle.27Jul16.86a.jar" for a summary of command line arguments.
+Start time: 08:24 PM EDT on 19 Apr 2024
+
+Command line: java -Xmx18204m -jar beagle.jar
+  gl=/home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/iisa_3-results/germline/chr20.gl.vcf.gz
+  ref=/home/lchanem1/data-abattle4/lakshmi/GRCh37_renamed/ALL.chr20.phase3_shapeit2_mvncall_integrated_v5b.20130502.genotypes_rename.vcf.gz
+  chrom=chr20
+  out=/home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/iisa_3-results/germline/chr20.gp
+  impute=false
+  modelscale=2
+  nthreads=24
+  gprobs=true
+  niterations=0
+
+No genetic map is specified: using 1 cM = 1 Mb
+
+reference samples:    2504
+target samples:          1
+
+Window 1 [ chr16:74763-90141355 ]
+reference markers:    7977
+target markers:       7977
+
+Starting burn-in iterations
+
+Window=1 Iteration=1
+Time for building model:         12 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 29     max edges/level: 86
+mean edges/node:  1.352  mean count/edge: 173
+Lines   total/split/realigned/skipped:	11092365/180547/9440/0
+beagle.27Jul16.86a.jar (version 4.1)
+Copyright (C) 2014-2015 Brian L. Browning
+Enter "java -jar beagle.27Jul16.86a.jar" for a summary of command line arguments.
+Start time: 08:24 PM EDT on 19 Apr 2024
+
+Command line: java -Xmx18204m -jar beagle.jar
+  gl=/home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/iisa_3-results/germline/chr19.gl.vcf.gz
+  ref=/home/lchanem1/data-abattle4/lakshmi/GRCh37_renamed/ALL.chr19.phase3_shapeit2_mvncall_integrated_v5b.20130502.genotypes_rename.vcf.gz
+  chrom=chr19
+  out=/home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/iisa_3-results/germline/chr19.gp
+  impute=false
+  modelscale=2
+  nthreads=24
+  gprobs=true
+  niterations=0
+
+No genetic map is specified: using 1 cM = 1 Mb
+
+Window=1 Iteration=2
+Time for building model:         11 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 29     max edges/level: 85
+mean edges/node:  1.339  mean count/edge: 173
+
+reference samples:    2504
+target samples:          1
+
+Window=1 Iteration=3
+Time for building model:         11 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 29     max edges/level: 87
+mean edges/node:  1.336  mean count/edge: 173
+
+Window=1 Iteration=4
+Time for building model:         10 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 29     max edges/level: 88
+mean edges/node:  1.336  mean count/edge: 173
+
+Window=1 Iteration=5
+Time for building model:         10 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 29     max edges/level: 87
+mean edges/node:  1.333  mean count/edge: 173
+
+Window=1 Iteration=6
+Time for building model:         10 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 29     max edges/level: 92
+mean edges/node:  1.338  mean count/edge: 173
+
+Window=1 Iteration=7
+Time for building model:         9 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 29     max edges/level: 83
+mean edges/node:  1.332  mean count/edge: 173
+
+Window 1 [ chr11:201027-134851240 ]
+reference markers:   13281
+target markers:      13281
+
+Starting burn-in iterations
+
+Window=1 Iteration=8
+Time for building model:         10 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 29     max edges/level: 89
+mean edges/node:  1.336  mean count/edge: 173
+
+Window=1 Iteration=9
+Time for building model:         11 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 29     max edges/level: 90
+mean edges/node:  1.333  mean count/edge: 173
+Lines   total/split/realigned/skipped:	3414837/28374/2303/0
+beagle.27Jul16.86a.jar (version 4.1)
+Copyright (C) 2014-2015 Brian L. Browning
+Enter "java -jar beagle.27Jul16.86a.jar" for a summary of command line arguments.
+Start time: 08:26 PM EDT on 19 Apr 2024
+
+Command line: java -Xmx18204m -jar beagle.jar
+  gl=/home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/iisa_3-results/germline/chr21.gl.vcf.gz
+  ref=/home/lchanem1/data-abattle4/lakshmi/GRCh37_renamed/ALL.chr21.phase3_shapeit2_mvncall_integrated_v5b.20130502.genotypes_rename.vcf.gz
+  chrom=chr21
+  out=/home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/iisa_3-results/germline/chr21.gp
+  impute=false
+  modelscale=2
+  nthreads=24
+  gprobs=true
+  niterations=0
+
+No genetic map is specified: using 1 cM = 1 Mb
+
+Window 1 [ chr1:15211-248242265 ]
+reference markers:   21365
+target markers:      21365
+
+Starting burn-in iterations
+
+Window 1 [ chr20:251857-62911117 ]
+reference markers:    5971
+target markers:       5971
+
+Starting burn-in iterations
+
+Window=1 Iteration=1
+Time for building model:         20 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 29     max edges/level: 81
+mean edges/node:  1.301  mean count/edge: 173
+
+Window=1 Iteration=10
+Time for building model:         10 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 29     max edges/level: 88
+mean edges/node:  1.337  mean count/edge: 173
+
+Number of markers:                7977
+Total time for building model: 1 minute 44 seconds
+Total time for sampling:       1 second
+Total run time:                4 minutes 20 seconds
+
+End time: 08:26 PM EDT on 19 Apr 2024
+beagle.27Jul16.86a.jar (version 4.1) finished
+
+Window=1 Iteration=1
+Time for building model:         10 seconds
+Time for sampling (singles):     1 second
+DAG statistics
+mean edges/level: 24     max edges/level: 77
+mean edges/node:  1.296  mean count/edge: 209
+
+Window 1 [ chr12:80311-133787329 ]
+reference markers:   15881
+target markers:      15881
+
+Starting burn-in iterations
+
+Window=1 Iteration=2
+Time for building model:         21 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 29     max edges/level: 88
+mean edges/node:  1.283  mean count/edge: 173
+
+Window=1 Iteration=2
+Time for building model:         10 seconds
+Time for sampling (singles):     1 second
+DAG statistics
+mean edges/level: 23     max edges/level: 75
+mean edges/node:  1.279  mean count/edge: 218
+
+Window=1 Iteration=1
+Time for building model:         34 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 27     max edges/level: 77
+mean edges/node:  1.306  mean count/edge: 186
+
+reference samples:    2504
+target samples:          1
+
+Window=1 Iteration=3
+Time for building model:         9 seconds
+Time for sampling (singles):     1 second
+DAG statistics
+mean edges/level: 24     max edges/level: 73
+mean edges/node:  1.275  mean count/edge: 209
+
+Window=1 Iteration=3
+Time for building model:         21 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 29     max edges/level: 77
+mean edges/node:  1.286  mean count/edge: 173
+
+Window=1 Iteration=1
+Time for building model:         22 seconds
+Time for sampling (singles):     3 seconds
+DAG statistics
+mean edges/level: 28     max edges/level: 81
+mean edges/node:  1.282  mean count/edge: 179
+
+Window=1 Iteration=4
+Time for building model:         10 seconds
+Time for sampling (singles):     1 second
+DAG statistics
+mean edges/level: 23     max edges/level: 76
+mean edges/node:  1.277  mean count/edge: 218
+
+Window 1 [ chr19:281297-59112097 ]
+reference markers:   14215
+target markers:      14215
+
+Starting burn-in iterations
+
+Window=1 Iteration=5
+Time for building model:         10 seconds
+Time for sampling (singles):     1 second
+DAG statistics
+mean edges/level: 24     max edges/level: 77
+mean edges/node:  1.277  mean count/edge: 209
+
+Window 1 [ chr21:9827015-48085293 ]
+reference markers:    3687
+target markers:       3687
+
+Starting burn-in iterations
+
+Window=1 Iteration=2
+Time for building model:         34 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 26     max edges/level: 77
+mean edges/node:  1.287  mean count/edge: 193
+
+Window=1 Iteration=4
+Time for building model:         22 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 29     max edges/level: 77
+mean edges/node:  1.284  mean count/edge: 173
+
+Window=1 Iteration=6
+Time for building model:         10 seconds
+Time for sampling (singles):     1 second
+DAG statistics
+mean edges/level: 23     max edges/level: 78
+mean edges/node:  1.277  mean count/edge: 218
+
+Window=1 Iteration=1
+Time for building model:         5 seconds
+Time for sampling (singles):     1 second
+DAG statistics
+mean edges/level: 27     max edges/level: 84
+mean edges/node:  1.288  mean count/edge: 186
+
+Window=1 Iteration=2
+Time for building model:         21 seconds
+Time for sampling (singles):     3 seconds
+DAG statistics
+mean edges/level: 27     max edges/level: 81
+mean edges/node:  1.263  mean count/edge: 186
+
+Window=1 Iteration=2
+Time for building model:         5 seconds
+Time for sampling (singles):     1 second
+DAG statistics
+mean edges/level: 27     max edges/level: 77
+mean edges/node:  1.270  mean count/edge: 186
+
+Window=1 Iteration=7
+Time for building model:         9 seconds
+Time for sampling (singles):     1 second
+DAG statistics
+mean edges/level: 24     max edges/level: 80
+mean edges/node:  1.276  mean count/edge: 209
+
+Window=1 Iteration=1
+Time for building model:         30 seconds
+Time for sampling (singles):     3 seconds
+DAG statistics
+mean edges/level: 29     max edges/level: 91
+mean edges/node:  1.250  mean count/edge: 173
+
+Window=1 Iteration=3
+Time for building model:         5 seconds
+Time for sampling (singles):     1 second
+DAG statistics
+mean edges/level: 27     max edges/level: 79
+mean edges/node:  1.265  mean count/edge: 186
+
+Window=1 Iteration=4
+Time for building model:         4 seconds
+Time for sampling (singles):     1 second
+DAG statistics
+mean edges/level: 27     max edges/level: 80
+mean edges/node:  1.268  mean count/edge: 186
+
+Window=1 Iteration=5
+Time for building model:         19 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 29     max edges/level: 79
+mean edges/node:  1.281  mean count/edge: 173
+
+Window=1 Iteration=8
+Time for building model:         9 seconds
+Time for sampling (singles):     1 second
+DAG statistics
+mean edges/level: 23     max edges/level: 74
+mean edges/node:  1.277  mean count/edge: 218
+
+Window=1 Iteration=5
+Time for building model:         4 seconds
+Time for sampling (singles):     1 second
+DAG statistics
+mean edges/level: 26     max edges/level: 77
+mean edges/node:  1.268  mean count/edge: 193
+
+Window=1 Iteration=3
+Time for building model:         20 seconds
+Time for sampling (singles):     3 seconds
+DAG statistics
+mean edges/level: 27     max edges/level: 86
+mean edges/node:  1.260  mean count/edge: 186
+
+Window=1 Iteration=6
+Time for building model:         4 seconds
+Time for sampling (singles):     1 second
+DAG statistics
+mean edges/level: 27     max edges/level: 74
+mean edges/node:  1.272  mean count/edge: 186
+
+Window=1 Iteration=3
+Time for building model:         31 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 26     max edges/level: 82
+mean edges/node:  1.285  mean count/edge: 193
+Lines   total/split/realigned/skipped:	5933082/62720/3853/0
+
+Window=1 Iteration=9
+Time for building model:         8 seconds
+Time for sampling (singles):     1 second
+DAG statistics
+mean edges/level: 24     max edges/level: 76
+mean edges/node:  1.276  mean count/edge: 209
+beagle.27Jul16.86a.jar (version 4.1)
+Copyright (C) 2014-2015 Brian L. Browning
+Enter "java -jar beagle.27Jul16.86a.jar" for a summary of command line arguments.
+Start time: 08:27 PM EDT on 19 Apr 2024
+
+Command line: java -Xmx18204m -jar beagle.jar
+  gl=/home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/iisa_3-results/germline/chr22.gl.vcf.gz
+  ref=/home/lchanem1/data-abattle4/lakshmi/GRCh37_renamed/ALL.chr22.phase3_shapeit2_mvncall_integrated_v5b.20130502.genotypes_rename.vcf.gz
+  chrom=chr22
+  out=/home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/iisa_3-results/germline/chr22.gp
+  impute=false
+  modelscale=2
+  nthreads=24
+  gprobs=true
+  niterations=0
+
+No genetic map is specified: using 1 cM = 1 Mb
+
+Window=1 Iteration=7
+Time for building model:         5 seconds
+Time for sampling (singles):     1 second
+DAG statistics
+mean edges/level: 27     max edges/level: 77
+mean edges/node:  1.265  mean count/edge: 186
+
+Window=1 Iteration=6
+Time for building model:         18 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 29     max edges/level: 84
+mean edges/node:  1.283  mean count/edge: 173
+
+Window=1 Iteration=10
+Time for building model:         8 seconds
+Time for sampling (singles):     1 second
+DAG statistics
+mean edges/level: 23     max edges/level: 79
+mean edges/node:  1.276  mean count/edge: 218
+
+Number of markers:                5971
+Total time for building model: 1 minute 33 seconds
+Total time for sampling:       12 seconds
+Total run time:                3 minutes 48 seconds
+
+End time: 08:27 PM EDT on 19 Apr 2024
+beagle.27Jul16.86a.jar (version 4.1) finished
+beagle.27Jul16.86a.jar (version 4.1)
+Copyright (C) 2014-2015 Brian L. Browning
+Enter "java -jar beagle.27Jul16.86a.jar" for a summary of command line arguments.
+Start time: 08:27 PM EDT on 19 Apr 2024
+
+Command line: java -Xmx18204m -jar beagle.jar
+  gt=/home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/iisa_3-results/germline/chr20.germline.vcf
+  ref=/home/lchanem1/data-abattle4/lakshmi/GRCh37_renamed/ALL.chr20.phase3_shapeit2_mvncall_integrated_v5b.20130502.genotypes_rename.vcf.gz
+  chrom=chr20
+  out=/home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/iisa_3-results/germline/chr20.phased
+  impute=false
+  modelscale=2
+  nthreads=24
+  gprobs=true
+  niterations=0
+
+No genetic map is specified: using 1 cM = 1 Mb
+
+Window=1 Iteration=8
+Time for building model:         5 seconds
+Time for sampling (singles):     1 second
+DAG statistics
+mean edges/level: 27     max edges/level: 80
+mean edges/node:  1.267  mean count/edge: 186
+
+Window=1 Iteration=2
+Time for building model:         26 seconds
+Time for sampling (singles):     4 seconds
+DAG statistics
+mean edges/level: 29     max edges/level: 86
+mean edges/node:  1.230  mean count/edge: 173
+
+reference samples:    2504
+target samples:          1
+
+Window=1 Iteration=9
+Time for building model:         5 seconds
+Time for sampling (singles):     1 second
+DAG statistics
+mean edges/level: 27     max edges/level: 77
+mean edges/node:  1.267  mean count/edge: 186
+
+Window=1 Iteration=4
+Time for building model:         21 seconds
+Time for sampling (singles):     3 seconds
+DAG statistics
+mean edges/level: 27     max edges/level: 77
+mean edges/node:  1.263  mean count/edge: 186
+
+Window=1 Iteration=10
+Time for building model:         5 seconds
+Time for sampling (singles):     1 second
+DAG statistics
+mean edges/level: 27     max edges/level: 74
+mean edges/node:  1.268  mean count/edge: 186
+
+Number of markers:                3687
+Total time for building model: 48 seconds
+Total time for sampling:       9 seconds
+Total run time:                2 minutes 5 seconds
+
+End time: 08:28 PM EDT on 19 Apr 2024
+beagle.27Jul16.86a.jar (version 4.1) finished
+beagle.27Jul16.86a.jar (version 4.1)
+Copyright (C) 2014-2015 Brian L. Browning
+Enter "java -jar beagle.27Jul16.86a.jar" for a summary of command line arguments.
+Start time: 08:28 PM EDT on 19 Apr 2024
+
+Command line: java -Xmx18204m -jar beagle.jar
+  gt=/home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/iisa_3-results/germline/chr21.germline.vcf
+  ref=/home/lchanem1/data-abattle4/lakshmi/GRCh37_renamed/ALL.chr21.phase3_shapeit2_mvncall_integrated_v5b.20130502.genotypes_rename.vcf.gz
+  chrom=chr21
+  out=/home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/iisa_3-results/germline/chr21.phased
+  impute=false
+  modelscale=2
+  nthreads=24
+  gprobs=true
+  niterations=0
+
+No genetic map is specified: using 1 cM = 1 Mb
+
+Window=1 Iteration=7
+Time for building model:         19 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 29     max edges/level: 77
+mean edges/node:  1.283  mean count/edge: 173
+
+Window=1 Iteration=4
+Time for building model:         29 seconds
+Time for sampling (singles):     1 second
+DAG statistics
+mean edges/level: 26     max edges/level: 76
+mean edges/node:  1.287  mean count/edge: 193
+
+reference samples:    2504
+target samples:          1
+
+Window=1 Iteration=3
+Time for building model:         27 seconds
+Time for sampling (singles):     3 seconds
+DAG statistics
+mean edges/level: 29     max edges/level: 90
+mean edges/node:  1.232  mean count/edge: 173
+
+Window=1 Iteration=5
+Time for building model:         22 seconds
+Time for sampling (singles):     3 seconds
+DAG statistics
+mean edges/level: 27     max edges/level: 83
+mean edges/node:  1.261  mean count/edge: 186
+
+Window=1 Iteration=8
+Time for building model:         19 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 29     max edges/level: 83
+mean edges/node:  1.282  mean count/edge: 173
+
+Window=1 Iteration=5
+Time for building model:         31 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 27     max edges/level: 82
+mean edges/node:  1.284  mean count/edge: 186
+
+reference samples:    2504
+target samples:          1
+
+Window=1 Iteration=9
+Time for building model:         20 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 29     max edges/level: 83
+mean edges/node:  1.284  mean count/edge: 173
+
+Window 1 [ chr22:16124155-51238394 ]
+reference markers:    6016
+target markers:       6016
+
+Starting burn-in iterations
+
+Window=1 Iteration=6
+Time for building model:         21 seconds
+Time for sampling (singles):     5 seconds
+DAG statistics
+mean edges/level: 27     max edges/level: 77
+mean edges/node:  1.263  mean count/edge: 186
+
+Window=1 Iteration=4
+Time for building model:         26 seconds
+Time for sampling (singles):     4 seconds
+DAG statistics
+mean edges/level: 29     max edges/level: 84
+mean edges/node:  1.230  mean count/edge: 173
+
+Window=1 Iteration=1
+Time for building model:         11 seconds
+Time for sampling (singles):     2 seconds
+DAG statistics
+mean edges/level: 30     max edges/level: 82
+mean edges/node:  1.268  mean count/edge: 167
+
+Window=1 Iteration=10
+Time for building model:         21 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 29     max edges/level: 85
+mean edges/node:  1.283  mean count/edge: 173
+
+Number of markers:               13281
+Total time for building model: 3 minutes 20 seconds
+Total time for sampling:       1 second
+Total run time:                7 minutes 18 seconds
+
+End time: 08:29 PM EDT on 19 Apr 2024
+beagle.27Jul16.86a.jar (version 4.1) finished
+
+Window 1 [ chr21:9838505-48085140 ]
+reference markers:    3031
+target markers:       3031
+
+Starting burn-in iterations
+
+Window=1 Iteration=2
+Time for building model:         11 seconds
+Time for sampling (singles):     2 seconds
+DAG statistics
+mean edges/level: 30     max edges/level: 81
+mean edges/node:  1.253  mean count/edge: 167
+
+Window=1 Iteration=6
+Time for building model:         32 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 26     max edges/level: 78
+mean edges/node:  1.287  mean count/edge: 193
+
+Window=1 Iteration=1
+Time for building model:         4 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 27     max edges/level: 79
+mean edges/node:  1.326  mean count/edge: 186
+
+Window=1 Iteration=7
+Time for building model:         21 seconds
+Time for sampling (singles):     5 seconds
+DAG statistics
+mean edges/level: 27     max edges/level: 83
+mean edges/node:  1.260  mean count/edge: 186
+
+Window=1 Iteration=2
+Time for building model:         3 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 27     max edges/level: 70
+mean edges/node:  1.316  mean count/edge: 186
+
+Window=1 Iteration=3
+Time for building model:         4 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 26     max edges/level: 76
+mean edges/node:  1.310  mean count/edge: 193
+
+Window=1 Iteration=3
+Time for building model:         10 seconds
+Time for sampling (singles):     2 seconds
+DAG statistics
+mean edges/level: 30     max edges/level: 88
+mean edges/node:  1.254  mean count/edge: 167
+
+Window=1 Iteration=5
+Time for building model:         28 seconds
+Time for sampling (singles):     3 seconds
+DAG statistics
+mean edges/level: 28     max edges/level: 86
+mean edges/node:  1.233  mean count/edge: 179
+
+Window=1 Iteration=4
+Time for building model:         4 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 27     max edges/level: 74
+mean edges/node:  1.313  mean count/edge: 186
+
+Window=1 Iteration=5
+Time for building model:         4 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 26     max edges/level: 70
+mean edges/node:  1.310  mean count/edge: 193
+
+Window=1 Iteration=6
+Time for building model:         4 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 27     max edges/level: 73
+mean edges/node:  1.316  mean count/edge: 186
+
+Window=1 Iteration=4
+Time for building model:         9 seconds
+Time for sampling (singles):     2 seconds
+DAG statistics
+mean edges/level: 30     max edges/level: 79
+mean edges/node:  1.253  mean count/edge: 167
+
+Window=1 Iteration=7
+Time for building model:         4 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 26     max edges/level: 79
+mean edges/node:  1.312  mean count/edge: 193
+
+Window=1 Iteration=7
+Time for building model:         26 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 26     max edges/level: 78
+mean edges/node:  1.285  mean count/edge: 193
+
+Window=1 Iteration=8
+Time for building model:         4 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 27     max edges/level: 76
+mean edges/node:  1.310  mean count/edge: 186
+
+Window=1 Iteration=8
+Time for building model:         21 seconds
+Time for sampling (singles):     4 seconds
+DAG statistics
+mean edges/level: 27     max edges/level: 81
+mean edges/node:  1.263  mean count/edge: 186
+
+Window=1 Iteration=9
+Time for building model:         3 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 27     max edges/level: 76
+mean edges/node:  1.307  mean count/edge: 186
+
+Window=1 Iteration=5
+Time for building model:         9 seconds
+Time for sampling (singles):     1 second
+DAG statistics
+mean edges/level: 30     max edges/level: 86
+mean edges/node:  1.256  mean count/edge: 167
+
+Window=1 Iteration=10
+Time for building model:         4 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 27     max edges/level: 70
+mean edges/node:  1.315  mean count/edge: 186
+
+Number of markers:                3031
+Total time for building model: 37 seconds
+Total time for sampling:       0 seconds
+Total run time:                1 minute 43 seconds
+
+End time: 08:29 PM EDT on 19 Apr 2024
+beagle.27Jul16.86a.jar (version 4.1) finished
+
+Window 1 [ chr20:255534-62911117 ]
+reference markers:    4538
+target markers:       4538
+
+Starting burn-in iterations
+
+Window=1 Iteration=6
+Time for building model:         24 seconds
+Time for sampling (singles):     5 seconds
+DAG statistics
+mean edges/level: 29     max edges/level: 85
+mean edges/node:  1.230  mean count/edge: 173
+
+Window=1 Iteration=6
+Time for building model:         9 seconds
+Time for sampling (singles):     2 seconds
+DAG statistics
+mean edges/level: 30     max edges/level: 86
+mean edges/node:  1.253  mean count/edge: 167
+
+Window=1 Iteration=1
+Time for building model:         6 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 24     max edges/level: 79
+mean edges/node:  1.359  mean count/edge: 209
+
+Window=1 Iteration=8
+Time for building model:         24 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 26     max edges/level: 78
+mean edges/node:  1.285  mean count/edge: 193
+
+Window=1 Iteration=2
+Time for building model:         6 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 24     max edges/level: 74
+mean edges/node:  1.339  mean count/edge: 209
+
+Window=1 Iteration=9
+Time for building model:         19 seconds
+Time for sampling (singles):     4 seconds
+DAG statistics
+mean edges/level: 27     max edges/level: 82
+mean edges/node:  1.261  mean count/edge: 186
+
+Window=1 Iteration=7
+Time for building model:         8 seconds
+Time for sampling (singles):     2 seconds
+DAG statistics
+mean edges/level: 30     max edges/level: 87
+mean edges/node:  1.253  mean count/edge: 167
+
+Window=1 Iteration=3
+Time for building model:         6 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 24     max edges/level: 72
+mean edges/node:  1.340  mean count/edge: 209
+
+Window=1 Iteration=4
+Time for building model:         7 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 24     max edges/level: 75
+mean edges/node:  1.340  mean count/edge: 209
+
+Window=1 Iteration=8
+Time for building model:         10 seconds
+Time for sampling (singles):     2 seconds
+DAG statistics
+mean edges/level: 30     max edges/level: 88
+mean edges/node:  1.254  mean count/edge: 167
+
+Window=1 Iteration=7
+Time for building model:         22 seconds
+Time for sampling (singles):     5 seconds
+DAG statistics
+mean edges/level: 29     max edges/level: 88
+mean edges/node:  1.231  mean count/edge: 173
+
+Window=1 Iteration=5
+Time for building model:         6 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 24     max edges/level: 72
+mean edges/node:  1.343  mean count/edge: 209
+
+Window=1 Iteration=6
+Time for building model:         7 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 24     max edges/level: 73
+mean edges/node:  1.342  mean count/edge: 209
+
+Window=1 Iteration=9
+Time for building model:         10 seconds
+Time for sampling (singles):     2 seconds
+DAG statistics
+mean edges/level: 30     max edges/level: 82
+mean edges/node:  1.253  mean count/edge: 167
+
+Window=1 Iteration=9
+Time for building model:         26 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 26     max edges/level: 84
+mean edges/node:  1.286  mean count/edge: 193
+
+Window=1 Iteration=10
+Time for building model:         21 seconds
+Time for sampling (singles):     4 seconds
+DAG statistics
+mean edges/level: 27     max edges/level: 77
+mean edges/node:  1.263  mean count/edge: 186
+
+Number of markers:               15881
+Total time for building model: 3 minutes 29 seconds
+Total time for sampling:       38 seconds
+Total run time:                8 minutes 1 second
+
+End time: 08:30 PM EDT on 19 Apr 2024
+beagle.27Jul16.86a.jar (version 4.1) finished
+beagle.27Jul16.86a.jar (version 4.1)
+Copyright (C) 2014-2015 Brian L. Browning
+Enter "java -jar beagle.27Jul16.86a.jar" for a summary of command line arguments.
+Start time: 08:30 PM EDT on 19 Apr 2024
+
+Command line: java -Xmx18204m -jar beagle.jar
+  gt=/home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/iisa_3-results/germline/chr12.germline.vcf
+  ref=/home/lchanem1/data-abattle4/lakshmi/GRCh37_renamed/ALL.chr12.phase3_shapeit2_mvncall_integrated_v5b.20130502.genotypes_rename.vcf.gz
+  chrom=chr12
+  out=/home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/iisa_3-results/germline/chr12.phased
+  impute=false
+  modelscale=2
+  nthreads=24
+  gprobs=true
+  niterations=0
+
+No genetic map is specified: using 1 cM = 1 Mb
+
+Window=1 Iteration=7
+Time for building model:         7 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 24     max edges/level: 72
+mean edges/node:  1.338  mean count/edge: 209
+
+Window=1 Iteration=10
+Time for building model:         10 seconds
+Time for sampling (singles):     2 seconds
+DAG statistics
+mean edges/level: 29     max edges/level: 86
+mean edges/node:  1.254  mean count/edge: 173
+
+Number of markers:                6016
+Total time for building model: 1 minute 36 seconds
+Total time for sampling:       19 seconds
+Total run time:                3 minutes 0 seconds
+
+End time: 08:30 PM EDT on 19 Apr 2024
+beagle.27Jul16.86a.jar (version 4.1) finished
+beagle.27Jul16.86a.jar (version 4.1)
+Copyright (C) 2014-2015 Brian L. Browning
+Enter "java -jar beagle.27Jul16.86a.jar" for a summary of command line arguments.
+Start time: 08:30 PM EDT on 19 Apr 2024
+
+Command line: java -Xmx18204m -jar beagle.jar
+  gt=/home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/iisa_3-results/germline/chr22.germline.vcf
+  ref=/home/lchanem1/data-abattle4/lakshmi/GRCh37_renamed/ALL.chr22.phase3_shapeit2_mvncall_integrated_v5b.20130502.genotypes_rename.vcf.gz
+  chrom=chr22
+  out=/home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/iisa_3-results/germline/chr22.phased
+  impute=false
+  modelscale=2
+  nthreads=24
+  gprobs=true
+  niterations=0
+
+No genetic map is specified: using 1 cM = 1 Mb
+
+Window=1 Iteration=8
+Time for building model:         7 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 24     max edges/level: 77
+mean edges/node:  1.338  mean count/edge: 209
+
+reference samples:    2504
+target samples:          1
+
+Window=1 Iteration=8
+Time for building model:         23 seconds
+Time for sampling (singles):     5 seconds
+DAG statistics
+mean edges/level: 29     max edges/level: 84
+mean edges/node:  1.230  mean count/edge: 173
+
+Window=1 Iteration=9
+Time for building model:         6 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 24     max edges/level: 73
+mean edges/node:  1.337  mean count/edge: 209
+
+Window=1 Iteration=10
+Time for building model:         7 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 24     max edges/level: 74
+mean edges/node:  1.339  mean count/edge: 209
+
+Number of markers:                4538
+Total time for building model: 1 minute 4 seconds
+Total time for sampling:       0 seconds
+Total run time:                3 minutes 5 seconds
+
+End time: 08:31 PM EDT on 19 Apr 2024
+beagle.27Jul16.86a.jar (version 4.1) finished
+
+Window=1 Iteration=10
+Time for building model:         28 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 26     max edges/level: 83
+mean edges/node:  1.286  mean count/edge: 193
+
+Number of markers:               21365
+Total time for building model: 4 minutes 56 seconds
+Total time for sampling:       2 seconds
+Total run time:                11 minutes 41 seconds
+
+End time: 08:31 PM EDT on 19 Apr 2024
+beagle.27Jul16.86a.jar (version 4.1) finished
+
+reference samples:    2504
+target samples:          1
+
+Window=1 Iteration=9
+Time for building model:         25 seconds
+Time for sampling (singles):     5 seconds
+DAG statistics
+mean edges/level: 28     max edges/level: 86
+mean edges/node:  1.234  mean count/edge: 179
+
+Window 1 [ chr22:17286147-51219006 ]
+reference markers:    4588
+target markers:       4588
+
+Starting burn-in iterations
+
+Window=1 Iteration=1
+Time for building model:         6 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 31     max edges/level: 81
+mean edges/node:  1.331  mean count/edge: 162
+
+Window=1 Iteration=10
+Time for building model:         30 seconds
+Time for sampling (singles):     5 seconds
+DAG statistics
+mean edges/level: 29     max edges/level: 85
+mean edges/node:  1.228  mean count/edge: 173
+
+Number of markers:               14215
+Total time for building model: 4 minutes 21 seconds
+Total time for sampling:       42 seconds
+Total run time:                7 minutes 8 seconds
+
+End time: 08:31 PM EDT on 19 Apr 2024
+beagle.27Jul16.86a.jar (version 4.1) finished
+beagle.27Jul16.86a.jar (version 4.1)
+Copyright (C) 2014-2015 Brian L. Browning
+Enter "java -jar beagle.27Jul16.86a.jar" for a summary of command line arguments.
+Start time: 08:31 PM EDT on 19 Apr 2024
+
+Command line: java -Xmx18204m -jar beagle.jar
+  gt=/home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/iisa_3-results/germline/chr19.germline.vcf
+  ref=/home/lchanem1/data-abattle4/lakshmi/GRCh37_renamed/ALL.chr19.phase3_shapeit2_mvncall_integrated_v5b.20130502.genotypes_rename.vcf.gz
+  chrom=chr19
+  out=/home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/iisa_3-results/germline/chr19.phased
+  impute=false
+  modelscale=2
+  nthreads=24
+  gprobs=true
+  niterations=0
+
+No genetic map is specified: using 1 cM = 1 Mb
+
+Window=1 Iteration=2
+Time for building model:         6 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 30     max edges/level: 80
+mean edges/node:  1.310  mean count/edge: 167
+
+Window=1 Iteration=3
+Time for building model:         6 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 30     max edges/level: 83
+mean edges/node:  1.311  mean count/edge: 167
+
+reference samples:    2504
+target samples:          1
+
+Window=1 Iteration=4
+Time for building model:         6 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 30     max edges/level: 82
+mean edges/node:  1.308  mean count/edge: 167
+
+Window=1 Iteration=5
+Time for building model:         7 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 31     max edges/level: 86
+mean edges/node:  1.307  mean count/edge: 162
+
+Window=1 Iteration=6
+Time for building model:         7 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 30     max edges/level: 86
+mean edges/node:  1.307  mean count/edge: 167
+
+Window=1 Iteration=7
+Time for building model:         7 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 30     max edges/level: 84
+mean edges/node:  1.309  mean count/edge: 167
+Lines   total/split/realigned/skipped:	12729081/165659/9180/0
+beagle.27Jul16.86a.jar (version 4.1)
+Copyright (C) 2014-2015 Brian L. Browning
+Enter "java -jar beagle.27Jul16.86a.jar" for a summary of command line arguments.
+Start time: 08:32 PM EDT on 19 Apr 2024
+
+Command line: java -Xmx18204m -jar beagle.jar
+  gl=/home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/iisa_3-results/germline/chr17.gl.vcf.gz
+  ref=/home/lchanem1/data-abattle4/lakshmi/GRCh37_renamed/ALL.chr17.phase3_shapeit2_mvncall_integrated_v5b.20130502.genotypes_rename.vcf.gz
+  chrom=chr17
+  out=/home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/iisa_3-results/germline/chr17.gp
+  impute=false
+  modelscale=2
+  nthreads=24
+  gprobs=true
+  niterations=0
+
+No genetic map is specified: using 1 cM = 1 Mb
+
+Window=1 Iteration=8
+Time for building model:         7 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 30     max edges/level: 80
+mean edges/node:  1.308  mean count/edge: 167
+
+reference samples:    2504
+target samples:          1
+
+Window=1 Iteration=9
+Time for building model:         7 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 30     max edges/level: 85
+mean edges/node:  1.308  mean count/edge: 167
+
+Window=1 Iteration=10
+Time for building model:         7 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 30     max edges/level: 92
+mean edges/node:  1.305  mean count/edge: 167
+
+Number of markers:                4588
+Total time for building model: 1 minute 7 seconds
+Total time for sampling:       0 seconds
+Total run time:                2 minutes 10 seconds
+
+End time: 08:32 PM EDT on 19 Apr 2024
+beagle.27Jul16.86a.jar (version 4.1) finished
+
+Window 1 [ chr19:287322-59112097 ]
+reference markers:    9916
+target markers:       9916
+
+Starting burn-in iterations
+
+Window 1 [ chr12:80311-133787329 ]
+reference markers:   13215
+target markers:      13215
+
+Starting burn-in iterations
+
+Window=1 Iteration=1
+Time for building model:         14 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 31     max edges/level: 85
+mean edges/node:  1.302  mean count/edge: 162
+
+Window=1 Iteration=2
+Time for building model:         14 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 31     max edges/level: 89
+mean edges/node:  1.280  mean count/edge: 162
+
+Window=1 Iteration=1
+Time for building model:         15 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 28     max edges/level: 83
+mean edges/node:  1.315  mean count/edge: 179
+
+Window=1 Iteration=3
+Time for building model:         14 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 31     max edges/level: 86
+mean edges/node:  1.281  mean count/edge: 162
+
+Window=1 Iteration=2
+Time for building model:         14 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 28     max edges/level: 73
+mean edges/node:  1.296  mean count/edge: 179
+
+Window=1 Iteration=3
+Time for building model:         13 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 28     max edges/level: 77
+mean edges/node:  1.294  mean count/edge: 179
+
+Window=1 Iteration=4
+Time for building model:         15 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 31     max edges/level: 86
+mean edges/node:  1.275  mean count/edge: 162
+
+Window 1 [ chr17:56117-81052407 ]
+reference markers:   13282
+target markers:      13282
+
+Starting burn-in iterations
+
+Window=1 Iteration=4
+Time for building model:         15 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 28     max edges/level: 77
+mean edges/node:  1.297  mean count/edge: 179
+
+Window=1 Iteration=5
+Time for building model:         16 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 30     max edges/level: 85
+mean edges/node:  1.282  mean count/edge: 167
+
+Window=1 Iteration=5
+Time for building model:         16 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 28     max edges/level: 79
+mean edges/node:  1.295  mean count/edge: 179
+
+Window=1 Iteration=6
+Time for building model:         16 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 31     max edges/level: 85
+mean edges/node:  1.278  mean count/edge: 162
+
+Window=1 Iteration=1
+Time for building model:         22 seconds
+Time for sampling (singles):     3 seconds
+DAG statistics
+mean edges/level: 27     max edges/level: 81
+mean edges/node:  1.262  mean count/edge: 186
+
+Window=1 Iteration=6
+Time for building model:         15 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 28     max edges/level: 74
+mean edges/node:  1.297  mean count/edge: 179
+
+Window=1 Iteration=7
+Time for building model:         16 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 30     max edges/level: 85
+mean edges/node:  1.284  mean count/edge: 167
+
+Window=1 Iteration=7
+Time for building model:         15 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 28     max edges/level: 82
+mean edges/node:  1.295  mean count/edge: 179
+
+Window=1 Iteration=2
+Time for building model:         22 seconds
+Time for sampling (singles):     3 seconds
+DAG statistics
+mean edges/level: 27     max edges/level: 78
+mean edges/node:  1.244  mean count/edge: 186
+
+Window=1 Iteration=8
+Time for building model:         16 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 31     max edges/level: 83
+mean edges/node:  1.278  mean count/edge: 162
+
+Window=1 Iteration=8
+Time for building model:         16 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 28     max edges/level: 74
+mean edges/node:  1.297  mean count/edge: 179
+
+Window=1 Iteration=9
+Time for building model:         18 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 30     max edges/level: 87
+mean edges/node:  1.283  mean count/edge: 167
+
+Window=1 Iteration=3
+Time for building model:         22 seconds
+Time for sampling (singles):     3 seconds
+DAG statistics
+mean edges/level: 27     max edges/level: 83
+mean edges/node:  1.243  mean count/edge: 186
+
+Window=1 Iteration=9
+Time for building model:         15 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 28     max edges/level: 80
+mean edges/node:  1.295  mean count/edge: 179
+
+Window=1 Iteration=10
+Time for building model:         13 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 31     max edges/level: 78
+mean edges/node:  1.279  mean count/edge: 162
+
+Number of markers:                9916
+Total time for building model: 2 minutes 31 seconds
+Total time for sampling:       1 second
+Total run time:                4 minutes 13 seconds
+
+End time: 08:36 PM EDT on 19 Apr 2024
+beagle.27Jul16.86a.jar (version 4.1) finished
+
+Window=1 Iteration=10
+Time for building model:         13 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 28     max edges/level: 79
+mean edges/node:  1.297  mean count/edge: 179
+
+Number of markers:               13215
+Total time for building model: 2 minutes 27 seconds
+Total time for sampling:       1 second
+Total run time:                5 minutes 44 seconds
+
+End time: 08:36 PM EDT on 19 Apr 2024
+beagle.27Jul16.86a.jar (version 4.1) finished
+
+Window=1 Iteration=4
+Time for building model:         17 seconds
+Time for sampling (singles):     3 seconds
+DAG statistics
+mean edges/level: 27     max edges/level: 84
+mean edges/node:  1.241  mean count/edge: 186
+
+Window=1 Iteration=5
+Time for building model:         17 seconds
+Time for sampling (singles):     2 seconds
+DAG statistics
+mean edges/level: 27     max edges/level: 80
+mean edges/node:  1.242  mean count/edge: 186
+
+Window=1 Iteration=6
+Time for building model:         17 seconds
+Time for sampling (singles):     4 seconds
+DAG statistics
+mean edges/level: 27     max edges/level: 80
+mean edges/node:  1.242  mean count/edge: 186
+
+Window=1 Iteration=7
+Time for building model:         17 seconds
+Time for sampling (singles):     4 seconds
+DAG statistics
+mean edges/level: 27     max edges/level: 74
+mean edges/node:  1.242  mean count/edge: 186
+
+Window=1 Iteration=8
+Time for building model:         18 seconds
+Time for sampling (singles):     4 seconds
+DAG statistics
+mean edges/level: 27     max edges/level: 83
+mean edges/node:  1.241  mean count/edge: 186
+
+Window=1 Iteration=9
+Time for building model:         16 seconds
+Time for sampling (singles):     4 seconds
+DAG statistics
+mean edges/level: 27     max edges/level: 81
+mean edges/node:  1.242  mean count/edge: 186
+
+Window=1 Iteration=10
+Time for building model:         16 seconds
+Time for sampling (singles):     4 seconds
+DAG statistics
+mean edges/level: 27     max edges/level: 78
+mean edges/node:  1.244  mean count/edge: 186
+
+Number of markers:               13282
+Total time for building model: 3 minutes 5 seconds
+Total time for sampling:       31 seconds
+Total run time:                5 minutes 45 seconds
+
+End time: 08:38 PM EDT on 19 Apr 2024
+beagle.27Jul16.86a.jar (version 4.1) finished
+beagle.27Jul16.86a.jar (version 4.1)
+Copyright (C) 2014-2015 Brian L. Browning
+Enter "java -jar beagle.27Jul16.86a.jar" for a summary of command line arguments.
+Start time: 08:38 PM EDT on 19 Apr 2024
+
+Command line: java -Xmx18204m -jar beagle.jar
+  gt=/home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/iisa_3-results/germline/chr17.germline.vcf
+  ref=/home/lchanem1/data-abattle4/lakshmi/GRCh37_renamed/ALL.chr17.phase3_shapeit2_mvncall_integrated_v5b.20130502.genotypes_rename.vcf.gz
+  chrom=chr17
+  out=/home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/iisa_3-results/germline/chr17.phased
+  impute=false
+  modelscale=2
+  nthreads=24
+  gprobs=true
+  niterations=0
+
+No genetic map is specified: using 1 cM = 1 Mb
+
+reference samples:    2504
+target samples:          1
+
+Window 1 [ chr17:56117-81052407 ]
+reference markers:    9813
+target markers:       9813
+
+Starting burn-in iterations
+
+Window=1 Iteration=1
+Time for building model:         10 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 27     max edges/level: 82
+mean edges/node:  1.335  mean count/edge: 186
+
+Window=1 Iteration=2
+Time for building model:         12 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 27     max edges/level: 76
+mean edges/node:  1.310  mean count/edge: 186
+
+Window=1 Iteration=3
+Time for building model:         11 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 27     max edges/level: 78
+mean edges/node:  1.308  mean count/edge: 186
+
+Window=1 Iteration=4
+Time for building model:         12 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 27     max edges/level: 70
+mean edges/node:  1.309  mean count/edge: 186
+
+Window=1 Iteration=5
+Time for building model:         12 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 27     max edges/level: 81
+mean edges/node:  1.309  mean count/edge: 186
+
+Window=1 Iteration=6
+Time for building model:         12 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 27     max edges/level: 75
+mean edges/node:  1.308  mean count/edge: 186
+
+Window=1 Iteration=7
+Time for building model:         12 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 26     max edges/level: 83
+mean edges/node:  1.310  mean count/edge: 193
+
+Window=1 Iteration=8
+Time for building model:         11 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 27     max edges/level: 82
+mean edges/node:  1.308  mean count/edge: 186
+
+Window=1 Iteration=9
+Time for building model:         11 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 27     max edges/level: 77
+mean edges/node:  1.310  mean count/edge: 186
+
+Window=1 Iteration=10
+Time for building model:         13 seconds
+Time for sampling (singles):     0 seconds
+DAG statistics
+mean edges/level: 27     max edges/level: 79
+mean edges/node:  1.309  mean count/edge: 186
+
+Number of markers:                9813
+Total time for building model: 1 minute 56 seconds
+Total time for sampling:       1 second
+Total run time:                4 minutes 2 seconds
+
+End time: 08:42 PM EDT on 19 Apr 2024
+beagle.27Jul16.86a.jar (version 4.1) finished
+bash /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/iisa_3-results/Script/runGermline_chr5.sh
+bash /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/iisa_3-results/Script/runGermline_chr15.sh
+bash /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/iisa_3-results/Script/runGermline_chr7.sh
+bash /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/iisa_3-results/Script/runGermline_chr16.sh
+bash /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/iisa_3-results/Script/runGermline_chr10.sh
+bash /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/iisa_3-results/Script/runGermline_chr11.sh
+bash /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/iisa_3-results/Script/runGermline_chr3.sh
+bash /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/iisa_3-results/Script/runGermline_chr18.sh
+bash /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/iisa_3-results/Script/runGermline_chr21.sh
+bash /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/iisa_3-results/Script/runGermline_chr4.sh
+bash /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/iisa_3-results/Script/runGermline_chr14.sh
+bash /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/iisa_3-results/Script/runGermline_chr20.sh
+bash /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/iisa_3-results/Script/runGermline_chr1.sh
+bash /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/iisa_3-results/Script/runGermline_chr9.sh
+bash /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/iisa_3-results/Script/runGermline_chr13.sh
+bash /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/iisa_3-results/Script/runGermline_chr19.sh
+bash /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/iisa_3-results/Script/runGermline_chr8.sh
+bash /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/iisa_3-results/Script/runGermline_chr12.sh
+bash /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/iisa_3-results/Script/runGermline_chr6.sh
+bash /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/iisa_3-results/Script/runGermline_chr17.sh
+[2024-04-19 20:42:26,158] INFO     Monopogen.py Success! See instructions above.
+['bash /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/iisa_3-results/Script/runGermline_chr1.sh', 'bash /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/iisa_3-results/Script/runGermline_chr2.sh', 'bash /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/iisa_3-results/Script/runGermline_chr3.sh', 'bash /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/iisa_3-results/Script/runGermline_chr4.sh', 'bash /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/iisa_3-results/Script/runGermline_chr5.sh', 'bash /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/iisa_3-results/Script/runGermline_chr6.sh', 'bash /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/iisa_3-results/Script/runGermline_chr7.sh', 'bash /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/iisa_3-results/Script/runGermline_chr8.sh', 'bash /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/iisa_3-results/Script/runGermline_chr9.sh', 'bash /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/iisa_3-results/Script/runGermline_chr10.sh', 'bash /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/iisa_3-results/Script/runGermline_chr11.sh', 'bash /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/iisa_3-results/Script/runGermline_chr12.sh', 'bash /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/iisa_3-results/Script/runGermline_chr13.sh', 'bash /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/iisa_3-results/Script/runGermline_chr14.sh', 'bash /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/iisa_3-results/Script/runGermline_chr15.sh', 'bash /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/iisa_3-results/Script/runGermline_chr16.sh', 'bash /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/iisa_3-results/Script/runGermline_chr17.sh', 'bash /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/iisa_3-results/Script/runGermline_chr18.sh', 'bash /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/iisa_3-results/Script/runGermline_chr19.sh', 'bash /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/iisa_3-results/Script/runGermline_chr20.sh', 'bash /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/iisa_3-results/Script/runGermline_chr21.sh', 'bash /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/iisa_3-results/Script/runGermline_chr22.sh']
