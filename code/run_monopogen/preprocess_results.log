@@ -1,0 +1,350 @@
+Checking the headers and starting positions of 22 files
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/zihe_1-results/germline/chr1.phased.vcf.gz	0.004461 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/zihe_1-results/germline/chr2.phased.vcf.gz	0.005222 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/zihe_1-results/germline/chr3.phased.vcf.gz	0.004187 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/zihe_1-results/germline/chr4.phased.vcf.gz	0.002940 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/zihe_1-results/germline/chr5.phased.vcf.gz	0.003957 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/zihe_1-results/germline/chr6.phased.vcf.gz	0.006412 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/zihe_1-results/germline/chr7.phased.vcf.gz	0.003917 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/zihe_1-results/germline/chr8.phased.vcf.gz	0.001684 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/zihe_1-results/germline/chr9.phased.vcf.gz	0.010287 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/zihe_1-results/germline/chr10.phased.vcf.gz	0.002740 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/zihe_1-results/germline/chr11.phased.vcf.gz	0.002843 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/zihe_1-results/germline/chr12.phased.vcf.gz	0.003790 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/zihe_1-results/germline/chr13.phased.vcf.gz	0.001527 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/zihe_1-results/germline/chr14.phased.vcf.gz	0.002583 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/zihe_1-results/germline/chr15.phased.vcf.gz	0.001587 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/zihe_1-results/germline/chr16.phased.vcf.gz	0.001533 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/zihe_1-results/germline/chr17.phased.vcf.gz	0.002705 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/zihe_1-results/germline/chr18.phased.vcf.gz	0.002438 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/zihe_1-results/germline/chr19.phased.vcf.gz	0.002704 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/zihe_1-results/germline/chr20.phased.vcf.gz	0.000372 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/zihe_1-results/germline/chr21.phased.vcf.gz	0.001358 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/zihe_1-results/germline/chr22.phased.vcf.gz	0.001411 seconds
+
+Concatenated all chromosomes
+
+Processing file /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/zihe_1-results/germline/temp_concat.phased.vcf.gz for zihe_1
+
+Finished modifying chrs in file
+
+Modified sample names to match HIPSCI and removed | in phased files
+
+****END OF zihe_1 PROCESSING...ready for results***
+
+
+Checking the headers and starting positions of 22 files
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/iisa_3-results/germline/chr1.phased.vcf.gz	0.014190 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/iisa_3-results/germline/chr2.phased.vcf.gz	0.015102 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/iisa_3-results/germline/chr3.phased.vcf.gz	0.012824 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/iisa_3-results/germline/chr4.phased.vcf.gz	0.010170 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/iisa_3-results/germline/chr5.phased.vcf.gz	0.010304 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/iisa_3-results/germline/chr6.phased.vcf.gz	0.011462 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/iisa_3-results/germline/chr7.phased.vcf.gz	0.010244 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/iisa_3-results/germline/chr8.phased.vcf.gz	0.007749 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/iisa_3-results/germline/chr9.phased.vcf.gz	0.007689 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/iisa_3-results/germline/chr10.phased.vcf.gz	0.007657 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/iisa_3-results/germline/chr11.phased.vcf.gz	0.010366 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/iisa_3-results/germline/chr12.phased.vcf.gz	0.008956 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/iisa_3-results/germline/chr13.phased.vcf.gz	0.005331 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/iisa_3-results/germline/chr14.phased.vcf.gz	0.006241 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/iisa_3-results/germline/chr15.phased.vcf.gz	0.006333 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/iisa_3-results/germline/chr16.phased.vcf.gz	0.005284 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/iisa_3-results/germline/chr17.phased.vcf.gz	0.007420 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/iisa_3-results/germline/chr18.phased.vcf.gz	0.004060 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/iisa_3-results/germline/chr19.phased.vcf.gz	0.007327 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/iisa_3-results/germline/chr20.phased.vcf.gz	0.003811 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/iisa_3-results/germline/chr21.phased.vcf.gz	0.001598 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/iisa_3-results/germline/chr22.phased.vcf.gz	0.003711 seconds
+
+Concatenated all chromosomes
+
+Processing file /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/iisa_3-results/germline/temp_concat.phased.vcf.gz for iisa_3
+
+Finished modifying chrs in file
+
+Modified sample names to match HIPSCI and removed | in phased files
+
+****END OF iisa_3 PROCESSING...ready for results***
+
+
+Checking the headers and starting positions of 22 files
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/uilk_3-results/germline/chr1.phased.vcf.gz	0.018880 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/uilk_3-results/germline/chr2.phased.vcf.gz	0.017632 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/uilk_3-results/germline/chr3.phased.vcf.gz	0.016265 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/uilk_3-results/germline/chr4.phased.vcf.gz	0.012896 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/uilk_3-results/germline/chr5.phased.vcf.gz	0.012707 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/uilk_3-results/germline/chr6.phased.vcf.gz	0.013775 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/uilk_3-results/germline/chr7.phased.vcf.gz	0.012774 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/uilk_3-results/germline/chr8.phased.vcf.gz	0.010218 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/uilk_3-results/germline/chr9.phased.vcf.gz	0.010221 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/uilk_3-results/germline/chr10.phased.vcf.gz	0.010753 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/uilk_3-results/germline/chr11.phased.vcf.gz	0.012220 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/uilk_3-results/germline/chr12.phased.vcf.gz	0.012225 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/uilk_3-results/germline/chr13.phased.vcf.gz	0.007364 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/uilk_3-results/germline/chr14.phased.vcf.gz	0.007510 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/uilk_3-results/germline/chr15.phased.vcf.gz	0.007500 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/uilk_3-results/germline/chr16.phased.vcf.gz	0.007619 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/uilk_3-results/germline/chr17.phased.vcf.gz	0.008644 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/uilk_3-results/germline/chr18.phased.vcf.gz	0.006212 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/uilk_3-results/germline/chr19.phased.vcf.gz	0.008552 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/uilk_3-results/germline/chr20.phased.vcf.gz	0.004015 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/uilk_3-results/germline/chr21.phased.vcf.gz	0.003688 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/uilk_3-results/germline/chr22.phased.vcf.gz	0.004067 seconds
+
+Concatenated all chromosomes
+
+Processing file /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/uilk_3-results/germline/temp_concat.phased.vcf.gz for uilk_3
+
+Finished modifying chrs in file
+
+Modified sample names to match HIPSCI and removed | in phased files
+
+****END OF uilk_3 PROCESSING...ready for results***
+
+
+Checking the headers and starting positions of 22 files
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/xojn_3-results/germline/chr1.phased.vcf.gz	0.025265 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/xojn_3-results/germline/chr2.phased.vcf.gz	0.024732 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/xojn_3-results/germline/chr3.phased.vcf.gz	0.023245 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/xojn_3-results/germline/chr4.phased.vcf.gz	0.017506 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/xojn_3-results/germline/chr5.phased.vcf.gz	0.017395 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/xojn_3-results/germline/chr6.phased.vcf.gz	0.019051 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/xojn_3-results/germline/chr7.phased.vcf.gz	0.018485 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/xojn_3-results/germline/chr8.phased.vcf.gz	0.012587 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/xojn_3-results/germline/chr9.phased.vcf.gz	0.013623 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/xojn_3-results/germline/chr10.phased.vcf.gz	0.014283 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/xojn_3-results/germline/chr11.phased.vcf.gz	0.015854 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/xojn_3-results/germline/chr12.phased.vcf.gz	0.017004 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/xojn_3-results/germline/chr13.phased.vcf.gz	0.008785 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/xojn_3-results/germline/chr14.phased.vcf.gz	0.010736 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/xojn_3-results/germline/chr15.phased.vcf.gz	0.009727 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/xojn_3-results/germline/chr16.phased.vcf.gz	0.009843 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/xojn_3-results/germline/chr17.phased.vcf.gz	0.011173 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/xojn_3-results/germline/chr18.phased.vcf.gz	0.008661 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/xojn_3-results/germline/chr19.phased.vcf.gz	0.009809 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/xojn_3-results/germline/chr20.phased.vcf.gz	0.006424 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/xojn_3-results/germline/chr21.phased.vcf.gz	0.003743 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/xojn_3-results/germline/chr22.phased.vcf.gz	0.005190 seconds
+
+Concatenated all chromosomes
+
+Processing file /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/xojn_3-results/germline/temp_concat.phased.vcf.gz for xojn_3
+
+Finished modifying chrs in file
+
+Modified sample names to match HIPSCI and removed | in phased files
+
+****END OF xojn_3 PROCESSING...ready for results***
+
+
+Checking the headers and starting positions of 22 files
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/qehq_3-results/germline/chr1.phased.vcf.gz	0.029638 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/qehq_3-results/germline/chr2.phased.vcf.gz	0.029532 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/qehq_3-results/germline/chr3.phased.vcf.gz	0.025947 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/qehq_3-results/germline/chr4.phased.vcf.gz	0.019882 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/qehq_3-results/germline/chr5.phased.vcf.gz	0.020125 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/qehq_3-results/germline/chr6.phased.vcf.gz	0.022064 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/qehq_3-results/germline/chr7.phased.vcf.gz	0.020715 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/qehq_3-results/germline/chr8.phased.vcf.gz	0.015995 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/qehq_3-results/germline/chr9.phased.vcf.gz	0.014915 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/qehq_3-results/germline/chr10.phased.vcf.gz	0.016773 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/qehq_3-results/germline/chr11.phased.vcf.gz	0.018081 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/qehq_3-results/germline/chr12.phased.vcf.gz	0.019055 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/qehq_3-results/germline/chr13.phased.vcf.gz	0.011008 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/qehq_3-results/germline/chr14.phased.vcf.gz	0.011056 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/qehq_3-results/germline/chr15.phased.vcf.gz	0.011974 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/qehq_3-results/germline/chr16.phased.vcf.gz	0.012163 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/qehq_3-results/germline/chr17.phased.vcf.gz	0.014127 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/qehq_3-results/germline/chr18.phased.vcf.gz	0.008836 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/qehq_3-results/germline/chr19.phased.vcf.gz	0.012041 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/qehq_3-results/germline/chr20.phased.vcf.gz	0.007622 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/qehq_3-results/germline/chr21.phased.vcf.gz	0.004964 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/qehq_3-results/germline/chr22.phased.vcf.gz	0.006170 seconds
+
+Concatenated all chromosomes
+
+Processing file /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/qehq_3-results/germline/temp_concat.phased.vcf.gz for qehq_3
+
+Finished modifying chrs in file
+
+Modified sample names to match HIPSCI and removed | in phased files
+
+****END OF qehq_3 PROCESSING...ready for results***
+
+
+Checking the headers and starting positions of 22 files
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/sojd_3-results/germline/chr1.phased.vcf.gz	0.039244 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/sojd_3-results/germline/chr2.phased.vcf.gz	0.038693 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/sojd_3-results/germline/chr3.phased.vcf.gz	0.035934 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/sojd_3-results/germline/chr4.phased.vcf.gz	0.030040 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/sojd_3-results/germline/chr5.phased.vcf.gz	0.027730 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/sojd_3-results/germline/chr6.phased.vcf.gz	0.028791 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/sojd_3-results/germline/chr7.phased.vcf.gz	0.027677 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/sojd_3-results/germline/chr8.phased.vcf.gz	0.020803 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/sojd_3-results/germline/chr9.phased.vcf.gz	0.021736 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/sojd_3-results/germline/chr10.phased.vcf.gz	0.020498 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/sojd_3-results/germline/chr11.phased.vcf.gz	0.023642 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/sojd_3-results/germline/chr12.phased.vcf.gz	0.024937 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/sojd_3-results/germline/chr13.phased.vcf.gz	0.016703 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/sojd_3-results/germline/chr14.phased.vcf.gz	0.015805 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/sojd_3-results/germline/chr15.phased.vcf.gz	0.016692 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/sojd_3-results/germline/chr16.phased.vcf.gz	0.014046 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/sojd_3-results/germline/chr17.phased.vcf.gz	0.016672 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/sojd_3-results/germline/chr18.phased.vcf.gz	0.013262 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/sojd_3-results/germline/chr19.phased.vcf.gz	0.013120 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/sojd_3-results/germline/chr20.phased.vcf.gz	0.008708 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/sojd_3-results/germline/chr21.phased.vcf.gz	0.006035 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/sojd_3-results/germline/chr22.phased.vcf.gz	0.007416 seconds
+
+Concatenated all chromosomes
+
+Processing file /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/sojd_3-results/germline/temp_concat.phased.vcf.gz for sojd_3
+
+Finished modifying chrs in file
+
+Modified sample names to match HIPSCI and removed | in phased files
+
+****END OF sojd_3 PROCESSING...ready for results***
+
+
+Checking the headers and starting positions of 22 files
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/eipl_1-results/germline/chr1.phased.vcf.gz	0.032544 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/eipl_1-results/germline/chr2.phased.vcf.gz	0.031733 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/eipl_1-results/germline/chr3.phased.vcf.gz	0.028153 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/eipl_1-results/germline/chr4.phased.vcf.gz	0.024462 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/eipl_1-results/germline/chr5.phased.vcf.gz	0.022680 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/eipl_1-results/germline/chr6.phased.vcf.gz	0.021960 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/eipl_1-results/germline/chr7.phased.vcf.gz	0.022047 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/eipl_1-results/germline/chr8.phased.vcf.gz	0.016070 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/eipl_1-results/germline/chr9.phased.vcf.gz	0.016023 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/eipl_1-results/germline/chr10.phased.vcf.gz	0.017885 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/eipl_1-results/germline/chr11.phased.vcf.gz	0.018078 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/eipl_1-results/germline/chr12.phased.vcf.gz	0.019259 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/eipl_1-results/germline/chr13.phased.vcf.gz	0.019861 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/eipl_1-results/germline/chr14.phased.vcf.gz	0.013243 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/eipl_1-results/germline/chr15.phased.vcf.gz	0.012170 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/eipl_1-results/germline/chr16.phased.vcf.gz	0.012270 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/eipl_1-results/germline/chr17.phased.vcf.gz	0.013219 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/eipl_1-results/germline/chr18.phased.vcf.gz	0.010754 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/eipl_1-results/germline/chr19.phased.vcf.gz	0.011005 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/eipl_1-results/germline/chr20.phased.vcf.gz	0.007618 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/eipl_1-results/germline/chr21.phased.vcf.gz	0.005030 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/eipl_1-results/germline/chr22.phased.vcf.gz	0.006191 seconds
+
+Concatenated all chromosomes
+
+Processing file /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/eipl_1-results/germline/temp_concat.phased.vcf.gz for eipl_1
+
+Finished modifying chrs in file
+
+Modified sample names to match HIPSCI and removed | in phased files
+
+****END OF eipl_1 PROCESSING...ready for results***
+
+
+Checking the headers and starting positions of 22 files
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/letw_1-results/germline/chr1.phased.vcf.gz	0.034601 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/letw_1-results/germline/chr2.phased.vcf.gz	0.034037 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/letw_1-results/germline/chr3.phased.vcf.gz	0.031582 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/letw_1-results/germline/chr4.phased.vcf.gz	0.026206 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/letw_1-results/germline/chr5.phased.vcf.gz	0.022979 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/letw_1-results/germline/chr6.phased.vcf.gz	0.024424 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/letw_1-results/germline/chr7.phased.vcf.gz	0.024322 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/letw_1-results/germline/chr8.phased.vcf.gz	0.018257 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/letw_1-results/germline/chr9.phased.vcf.gz	0.018135 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/letw_1-results/germline/chr10.phased.vcf.gz	0.019919 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/letw_1-results/germline/chr11.phased.vcf.gz	0.020398 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/letw_1-results/germline/chr12.phased.vcf.gz	0.021422 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/letw_1-results/germline/chr13.phased.vcf.gz	0.013370 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/letw_1-results/germline/chr14.phased.vcf.gz	0.014546 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/letw_1-results/germline/chr15.phased.vcf.gz	0.014044 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/letw_1-results/germline/chr16.phased.vcf.gz	0.013505 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/letw_1-results/germline/chr17.phased.vcf.gz	0.014528 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/letw_1-results/germline/chr18.phased.vcf.gz	0.010970 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/letw_1-results/germline/chr19.phased.vcf.gz	0.014444 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/letw_1-results/germline/chr20.phased.vcf.gz	0.008806 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/letw_1-results/germline/chr21.phased.vcf.gz	0.005723 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/letw_1-results/germline/chr22.phased.vcf.gz	0.007286 seconds
+
+Concatenated all chromosomes
+
+Processing file /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/letw_1-results/germline/temp_concat.phased.vcf.gz for letw_1
+
+Finished modifying chrs in file
+
+Modified sample names to match HIPSCI and removed | in phased files
+
+****END OF letw_1 PROCESSING...ready for results***
+
+
+Checking the headers and starting positions of 22 files
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/poih_4-results/germline/chr1.phased.vcf.gz	0.041696 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/poih_4-results/germline/chr2.phased.vcf.gz	0.041716 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/poih_4-results/germline/chr3.phased.vcf.gz	0.037802 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/poih_4-results/germline/chr4.phased.vcf.gz	0.029799 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/poih_4-results/germline/chr5.phased.vcf.gz	0.026654 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/poih_4-results/germline/chr6.phased.vcf.gz	0.029634 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/poih_4-results/germline/chr7.phased.vcf.gz	0.028828 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/poih_4-results/germline/chr8.phased.vcf.gz	0.022899 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/poih_4-results/germline/chr9.phased.vcf.gz	0.021602 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/poih_4-results/germline/chr10.phased.vcf.gz	0.022646 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/poih_4-results/germline/chr11.phased.vcf.gz	0.024971 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/poih_4-results/germline/chr12.phased.vcf.gz	0.026893 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/poih_4-results/germline/chr13.phased.vcf.gz	0.015448 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/poih_4-results/germline/chr14.phased.vcf.gz	0.017096 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/poih_4-results/germline/chr15.phased.vcf.gz	0.016844 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/poih_4-results/germline/chr16.phased.vcf.gz	0.015628 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/poih_4-results/germline/chr17.phased.vcf.gz	0.016603 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/poih_4-results/germline/chr18.phased.vcf.gz	0.012248 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/poih_4-results/germline/chr19.phased.vcf.gz	0.015225 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/poih_4-results/germline/chr20.phased.vcf.gz	0.010939 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/poih_4-results/germline/chr21.phased.vcf.gz	0.006036 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/poih_4-results/germline/chr22.phased.vcf.gz	0.007423 seconds
+
+Concatenated all chromosomes
+
+Processing file /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/poih_4-results/germline/temp_concat.phased.vcf.gz for poih_4
+
+Finished modifying chrs in file
+
+Modified sample names to match HIPSCI and removed | in phased files
+
+****END OF poih_4 PROCESSING...ready for results***
+
+
+Checking the headers and starting positions of 22 files
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/joxm_1-results/germline/chr1.phased.vcf.gz	0.071783 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/joxm_1-results/germline/chr2.phased.vcf.gz	0.050417 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/joxm_1-results/germline/chr3.phased.vcf.gz	0.045446 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/joxm_1-results/germline/chr4.phased.vcf.gz	0.037080 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/joxm_1-results/germline/chr5.phased.vcf.gz	0.033830 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/joxm_1-results/germline/chr6.phased.vcf.gz	0.035997 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/joxm_1-results/germline/chr7.phased.vcf.gz	0.033642 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/joxm_1-results/germline/chr8.phased.vcf.gz	0.026473 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/joxm_1-results/germline/chr9.phased.vcf.gz	0.026379 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/joxm_1-results/germline/chr10.phased.vcf.gz	0.027206 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/joxm_1-results/germline/chr11.phased.vcf.gz	0.031537 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/joxm_1-results/germline/chr12.phased.vcf.gz	0.030395 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/joxm_1-results/germline/chr13.phased.vcf.gz	0.019029 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/joxm_1-results/germline/chr14.phased.vcf.gz	0.021035 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/joxm_1-results/germline/chr15.phased.vcf.gz	0.019150 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/joxm_1-results/germline/chr16.phased.vcf.gz	0.019099 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/joxm_1-results/germline/chr17.phased.vcf.gz	0.019066 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/joxm_1-results/germline/chr18.phased.vcf.gz	0.015651 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/joxm_1-results/germline/chr19.phased.vcf.gz	0.017521 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/joxm_1-results/germline/chr20.phased.vcf.gz	0.013390 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/joxm_1-results/germline/chr21.phased.vcf.gz	0.007276 seconds
+Concatenating /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/joxm_1-results/germline/chr22.phased.vcf.gz	0.009931 seconds
+
+Concatenated all chromosomes
+
+Processing file /home/lchanem1/data-abattle4/lakshmi/cuomo_2020/monopogen_output/joxm_1-results/germline/temp_concat.phased.vcf.gz for joxm_1
+
+Finished modifying chrs in file
+
+Modified sample names to match HIPSCI and removed | in phased files
+
+****END OF joxm_1 PROCESSING...ready for results***
+
+
